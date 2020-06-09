@@ -21,4 +21,14 @@ In this example, up to 50,000 elements can be generated and visualized in the em
 
 See the project live [here](http://boeric.github.io/canvas-in-svg/), repo [here](https://github.com/boeric/canvas-in-svg)
 
+## array-unsort
 
+[![NPM package][npm-img]][npm-url]
+[![Build Size][build-size-img]][build-size-url]
+
+This **`npm`** module shuffles an arbitrary array. The module offers two methods: **`unsort`** method shuffles and returns a copy of the input array using the **Fisher-Yates** algorithm. The **`unsortInplace`** method unsorts the input array in-place and uses a modified Fisher-Yates method which guarantees that no array element remain at the same index after shuffling.
+
+[npm-img]: https://img.shields.io/npm/v/array-unsort.svg
+[npm-url]: https://npmjs.org/package/array-unsort
+[build-size-img]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
+[build-size-url]: https://bundlephobia.com/result?p=array-unsort
