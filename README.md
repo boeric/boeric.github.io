@@ -6,12 +6,11 @@ The project was made for the East Bay Community Law Center's **Back on the Road*
 
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative description [here](https://ebclc.org/backontheroad/problem/)
 
-See the project live [here](https://boeric.github.io/license-suspensions/){:target="_blank" rel="noopener"}
-
+See the project live [here](https://boeric.github.io/license-suspensions/)
 ## geo-buffer
 
 Creates "buffers" of arbitrary size around parks in San Francisco, using Mapbox Gl and Turf.js. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. Please note: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
-See the project live [here](https://boeric.github.io/geo-buffer/){:target="_blank" rel="noopener"}
+See the project live [here](https://boeric.github.io/geo-buffer/)
 
 
