@@ -116,7 +116,7 @@ See the project live [here](http://bl.ocks.org/boeric/47aceae44bb5f8b63d7b), rep
 
 Demo of drag and drop using only native HTML5 DOM methods.
 
-See the project live [here](https://github.com/boeric/drag-and-drop), repo [here](https://bl.ocks.org/boeric/deb4dfb7bc6f1f9e9a5b3bdd4ad2cc2c)
+See the project live [here](https://bl.ocks.org/boeric/deb4dfb7bc6f1f9e9a5b3bdd4ad2cc2c), repo [here](https://github.com/boeric/drag-and-drop)
 
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
