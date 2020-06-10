@@ -7,6 +7,8 @@ This **`npm`** module shuffles an arbitrary array. The module offers two methods
 
 Module on `npm` [here](https://www.npmjs.com/package/array-unsort), repo [here](https://github.com/boeric/array-unsort)
 
+Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
+
 ## array-correl
 
 [![NPM package][npm-img-array-correl]][npm-url-array-correl]
@@ -17,6 +19,9 @@ This **`npm`** module generates random values with a specified correlation. It a
 Module on `npm` [here](https://www.npmjs.com/package/array-correl), repo [here](https://github.com/boeric/array-correl)
 
 ## license-suspensions
+
+![](https://github.com/boeric/license-suspensions/blob/master/screenshot.png)
+
 
 The visualization demonstrates how to syncronize the state of two side-by-side Mapbox GL based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
 
@@ -63,6 +68,8 @@ The visualization is using data from www.shootingtracker.com and covers the peri
 ## migrants
 
 Slippy (zoomable/draggable) map and tile management, with data layer comprised of semitransparent circles. Also demonstrates an info overlay activated when the user is hovering over a data item.
+
+## drag-and-drop
 
 
 
