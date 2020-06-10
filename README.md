@@ -80,7 +80,7 @@ Repo is [here](https://github.com/boeric/timestamped-geo-points)
 
 ## shootings
 
-The visualization is using data from www.shootingtracker.com and covers the period January 2013 through early December 2015. The event data (comprised of over 1000 shooting events) has been grouped into weeks.
+The visualization is a demo of a 'slippy' (zoomable/draggable) map, and is using data from www.shootingtracker.com and covers the period January 2013 through early December 2015. The event data (comprised of over 1000 shooting events) has been grouped into weeks.
 
 See the project alive [here](http://bl.ocks.org/boeric/c1fe5650da3d6e790706), repo [here](https://github.com/boeric/shootings)
 
