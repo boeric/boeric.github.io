@@ -54,11 +54,15 @@ The **`real-time-chart-multi`** project is a resuable Javascript component that 
 
 See the project alive [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
 
+Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
+
 ## real-time-chart
 
 Similar to **`real-time-chart-multi`** (see above), but manages a single data stream.
 
 See the project alive [here](http://boeric.github.io/d3RealTimeChart/)
+
+Repo is [here](https://github.com/boeric/d3RealTimeChart)
 
 ## canvas-in-svg
 
@@ -72,19 +76,25 @@ See the project live [here](http://boeric.github.io/canvas-in-svg/), repo [here]
 
 Expands an array of geo vertices to timestamped geo points. Previously captured verticies (input file) indicate geo locations where a geo path is changing direction. For example, a vehicle's path along a road may be captured with a set of verticies, each of which indicate where the vechicle's path is changing direction. 
 
+Repo is [here](https://github.com/boeric/timestamped-geo-points)
+
 ## shootings
 
 The visualization is using data from www.shootingtracker.com and covers the period January 2013 through early December 2015. The event data (comprised of over 1000 shooting events) has been grouped into weeks.
+
+See the project alive [here](http://bl.ocks.org/boeric/c1fe5650da3d6e790706), repo [here](https://github.com/boeric/shootings)
 
 ## migrants
 
 Slippy (zoomable/draggable) map and tile management, with data layer comprised of semitransparent circles. Also demonstrates an info overlay activated when the user is hovering over a data item.
 
+See the project alive [here](http://bl.ocks.org/boeric/47aceae44bb5f8b63d7b), repo [here](https://github.com/boeric/migrants)
+
 ## drag-and-drop
 
+Demo of drag and drop using only native HTML5 DOM methods.
 
-
-
+See the project alive [here](https://github.com/boeric/drag-and-drop), repo [here](https://bl.ocks.org/boeric/deb4dfb7bc6f1f9e9a5b3bdd4ad2cc2c)
 
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
