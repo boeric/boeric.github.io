@@ -44,7 +44,7 @@ See the project alive [here](https://bl.ocks.org/boeric/4950f26655187c33bedba972
 
 ## geo-buffer
 
-Creates "buffers" of arbitrary size around parks in San Francisco, using Mapbox Gl and Turf.js. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. Please note: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
+Creates "buffers" of arbitrary size around **`geojson`** polygons and multi-polygons, in this case parks in San Francisco, using **Mapbox Gl** and **Turf.js**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. Please note: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
 See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](https://github.com/boeric/geo-buffer)
 
