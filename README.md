@@ -5,7 +5,7 @@
 [![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
 [![Build Size][build-size-img-array-unsort]][build-size-url-array-unsort]
 
-The **`unsort`** method unsorts (shuffles) the input array and returns a new array. The **`unsortInplace`** method unsorts the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**, the latter guarantees that no array element remain at the same index after shuffling.
+This **`npm`** module unsorts (shuffles) an input array. The **`unsort`** method scrambles the input array and returns a new array. The **`unsortInplace`** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
 
 Module on `npm` [here](https://www.npmjs.com/package/array-unsort), repo [here](https://github.com/boeric/array-unsort)
 
