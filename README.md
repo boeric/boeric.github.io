@@ -1,3 +1,21 @@
+## array-unsort
+
+[![NPM package][npm-img]][npm-url]
+[![Build Size][build-size-img]][build-size-url]
+
+This **`npm`** module shuffles an arbitrary array. The module offers two methods: **`unsort`** method shuffles and returns a copy of the input array using the **Fisher-Yates** algorithm. The **`unsortInplace`** method unsorts the input array in-place and uses a modified Fisher-Yates method which guarantees that no array element remain at the same index after shuffling.
+
+Module on `npm` [here](https://www.npmjs.com/package/array-unsort), repo [here](https://github.com/boeric/array-unsort)
+
+## array-correl
+
+[![NPM package][npm-img-array-correl]][npm-url-array-correl]
+[![Build Size][build-size-img-array-correl]][build-size-url-array-correl]
+
+This **`npm`** module generates random values with a specified correlation. It also allows inspection of an array to determine correlation between the array's values. The **`generate`** method takes the inputs count, desired correlation, mean and deviation and generates an array that satisfies the input parameters. The **`inspect`** method accepts an array, inspects the array and provides several statistics such as correlation coefficient, deviation, mean and extent (min, max).
+
+Module on `npm` [here](https://www.npmjs.com/package/array-correl), repo [here](https://github.com/boeric/array-correl)
+
 ## license-suspensions
 
 The visualization demonstrates how to syncronize the state of two side-by-side Mapbox GL based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
@@ -21,14 +39,27 @@ In this example, up to 50,000 elements can be generated and visualized in the em
 
 See the project live [here](http://boeric.github.io/canvas-in-svg/), repo [here](https://github.com/boeric/canvas-in-svg)
 
-## array-unsort
+## vertex-generator
 
-[![NPM package][npm-img]][npm-url]
-[![Build Size][build-size-img]][build-size-url]
+The Vertex Generator allows rapid capture of verticies of a simulated path of a vechicle or person. Each captured vertex is a geo location where the path is changing direction. Each vertex also has a notion of speed. The geo locations and speed information can be used by a post processing tool to "fill in" the geo location between the verticies.
 
-This **`npm`** module shuffles an arbitrary array. The module offers two methods: **`unsort`** method shuffles and returns a copy of the input array using the **Fisher-Yates** algorithm. The **`unsortInplace`** method unsorts the input array in-place and uses a modified Fisher-Yates method which guarantees that no array element remain at the same index after shuffling.
+## timestamped-geo-points
+
+Expands an array of geo vertices to timestamped geo points. Previously captured verticies (input file) indicate geo locations where a geo path is changing direction. For example, a vehicle's path along a road may be captured with a set of verticies, each of which indicate where the vechicle's path is changing direction. 
+
+## real-time-chart
+
+The real time chart is a resuable Javascript component that accepts real time data. The chart's time domain is moving with the passage of time, which means that any data placed in the chart eventually will age out and leave the chart. In addition to the main chart, the component also manages a "focus" window with a viewport (d3.brush) that can moved and sized to view an arbitrary portion of the time series data.
+
+
+
 
 [npm-img]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url]: https://npmjs.org/package/array-unsort
 [build-size-img]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
 [build-size-url]: https://bundlephobia.com/result?p=array-unsort
+
+[npm-img-array-correl]: https://img.shields.io/npm/v/array-correl.svg
+[npm-url-array-correl]: https://npmjs.org/package/array-correl
+[build-size-img-array-correl]: https://img.shields.io/bundlephobia/minzip/array-correl.svg
+[build-size-url-array-correl]: https://bundlephobia.com/result?p=array-correl
