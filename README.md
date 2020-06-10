@@ -116,6 +116,12 @@ React demo of inifite scroll of images from the **cat.api** where only a finite 
 
 See the project live [here](http://demo.boe.net:8080/), repo [here](https://github.com/boeric/infinite-scroll)
 
+## traffic-fines
+
+Interactive map that shows traffic fines across the US. The visualization was created for the Laywers' Committee for Civil Rights of the San Francisco Bay Area. The user can select one of three data series (Fines for Redlight, Stop sign and Speeding violations). By hovering over a state, an overlay shows the specific data to that state. As the user is moving the mouse over the map, the legend at the bottom shows each state's position.
+
+See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/) (please scroll down to the map), repo [here](https://github.com/boeric/traffic-fines)
+
 ## event-hub
 
 The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: a) server, b) client web app, c) analytics web app
