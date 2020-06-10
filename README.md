@@ -132,6 +132,14 @@ Run the **client** web app [here](http://demo.boe.net:5000/). Then in a separate
 
 Repo not yet published
 
+## sensor-vue
+
+The sensor-vue project is a full stack implementation of a) sensor software running on remote Raspberry PIs, b) an http server implementation used to collect the data from the remote sensors, and c) a React webapp to view the collected data. 
+
+See the project live [here](http://www.sensorvue.com)
+
+Repo not yet published
+
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
 [build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
