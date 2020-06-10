@@ -5,7 +5,7 @@
 [![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
 [![Build Size][build-size-img-array-unsort]][build-size-url-array-unsort]
 
-This **`npm`** module shuffles an arbitrary array. The module offers two methods: **`unsort`** method shuffles and returns a copy of the input array using the **Fisher-Yates** algorithm. The **`unsortInplace`** method unsorts the input array in-place and uses a modified Fisher-Yates method which guarantees that no array element remain at the same index after shuffling.
+The **`unsort`** method unsorts (shuffles) the input array and returns a new array. The **`unsortInplace`** method unsorts the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**, the latter guarantees that no array element remain at the same index after shuffling.
 
 Module on `npm` [here](https://www.npmjs.com/package/array-unsort), repo [here](https://github.com/boeric/array-unsort)
 
@@ -34,13 +34,23 @@ See the project live [here](https://boeric.github.io/license-suspensions/), repo
 
 Demo of CSS selector **combinators** using only native DOM methods
 
-See the project alive [here](https://bl.ocks.org/boeric/780904f668c1e2f27cdac8aa011e45cb), repo [here](https://gist.github.com/boeric/780904f668c1e2f27cdac8aa011e45cb)
+See the project live [here](https://bl.ocks.org/boeric/780904f668c1e2f27cdac8aa011e45cb), repo [here](https://gist.github.com/boeric/780904f668c1e2f27cdac8aa011e45cb)
+
+## css-box-model-demo
+
+A demo of the **CSS Box Model**, using **`D3`**. The project demonstrates a bunch of things, for example: 
+- The effects of margin, border, padding and inner content dimensions of the overall size of DOM elements
+- The optional use of **Flexbox** in laying out elements
+- How to calculate the full dimension of an element
+- How to extract current inline styles of elements
+
+See the project live [here](https://bl.ocks.org/boeric/cbb5b416091e74c70b8480e68b6d21e1), repo [here](https://github.com/boeric/css-box-model-demo)
 
 ## github-api-demo
 
-Demos of how to access the Github API to obtain metadata about a users public Repos and Gists. In addition, it demos how to do this using only native DOM methods (as no external libraries are used). It does however use Bootstrap for some styling. The Gist demos **`async-await`** when using **`fetch`**.
+Demos of how to access the Github API to obtain metadata about a users public Repos and Gists. In addition, it demos how to do this using only native DOM methods (as no external libraries are used). It does however use Bootstrap for some styling. Also demos **`async-await`** when using **`fetch`**.
 
-See the project alive [here](https://bl.ocks.org/boeric/4950f26655187c33bedba9728e98a3c2), repo [here](https://gist.github.com/boeric/4950f26655187c33bedba9728e98a3c2)
+See the project live [here](https://bl.ocks.org/boeric/4950f26655187c33bedba9728e98a3c2), repo [here](https://gist.github.com/boeric/4950f26655187c33bedba9728e98a3c2)
 
 ## geo-buffer
 
@@ -64,7 +74,7 @@ Repo is [here](https://github.com/boeric/GeoLocate)
 
 The **`real-time-chart-multi`** project is a resuable Javascript component that accepts real time data from **multiple** data streams. The purpose is to show the arrival time of real time events (or lack thereof), piped to the browser (for example via Websockets). Various attributes of each event can be articulated using **size**, **color** and **opacity** of the object generated for the event. 
 
-See the project alive [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
+See the project live [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
 
 Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
 
@@ -72,7 +82,7 @@ Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
 
 Similar to **`real-time-chart-multi`** (see above), but manages a single data stream.
 
-See the project alive [here](http://boeric.github.io/d3RealTimeChart/)
+See the project live [here](http://boeric.github.io/d3RealTimeChart/)
 
 Repo is [here](https://github.com/boeric/d3RealTimeChart)
 
@@ -94,19 +104,19 @@ Repo is [here](https://github.com/boeric/timestamped-geo-points)
 
 The visualization is a demo of a 'slippy' (zoomable/draggable) map, using data from www.shootingtracker.com and covers the period January 2013 through early December 2015. The event data (comprised of over 1000 shooting events) has been grouped into weeks.
 
-See the project alive [here](http://bl.ocks.org/boeric/c1fe5650da3d6e790706), repo [here](https://github.com/boeric/shootings)
+See the project live [here](http://bl.ocks.org/boeric/c1fe5650da3d6e790706), repo [here](https://github.com/boeric/shootings)
 
 ## migrants
 
 Slippy (zoomable/draggable) map and tile management, with data layer comprised of semitransparent circles. Also demonstrates an info overlay activated when the user is hovering over a data item.
 
-See the project alive [here](http://bl.ocks.org/boeric/47aceae44bb5f8b63d7b), repo [here](https://github.com/boeric/migrants)
+See the project live [here](http://bl.ocks.org/boeric/47aceae44bb5f8b63d7b), repo [here](https://github.com/boeric/migrants)
 
 ## drag-and-drop
 
 Demo of drag and drop using only native HTML5 DOM methods.
 
-See the project alive [here](https://github.com/boeric/drag-and-drop), repo [here](https://bl.ocks.org/boeric/deb4dfb7bc6f1f9e9a5b3bdd4ad2cc2c)
+See the project live [here](https://github.com/boeric/drag-and-drop), repo [here](https://bl.ocks.org/boeric/deb4dfb7bc6f1f9e9a5b3bdd4ad2cc2c)
 
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
