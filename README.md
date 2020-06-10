@@ -1,7 +1,7 @@
 ## array-unsort
 
-[![NPM package][npm-img]][npm-url]
-[![Build Size][build-size-img]][build-size-url]
+[![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
+[![Build Size][build-size-img-array-unsort]][build-size-url-array-unsort]
 
 This **`npm`** module shuffles an arbitrary array. The module offers two methods: **`unsort`** method shuffles and returns a copy of the input array using the **Fisher-Yates** algorithm. The **`unsortInplace`** method unsorts the input array in-place and uses a modified Fisher-Yates method which guarantees that no array element remain at the same index after shuffling.
 
@@ -25,11 +25,20 @@ The project was made for the East Bay Community Law Center's **Back on the Road*
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative description [here](https://ebclc.org/backontheroad/problem/)
 
 See the project live [here](https://boeric.github.io/license-suspensions/), repo [here](https://github.com/boeric/license-suspensions)
+
+## vertex-generator
+
+The Vertex Generator allows rapid capture of verticies of a simulated path of a vechicle or person. Each captured vertex is a geo location where the path is changing direction. Each vertex also has a notion of speed. The geo locations and speed information can be used by a post processing tool to "fill in" the geo location between the verticies.
+
 ## geo-buffer
 
 Creates "buffers" of arbitrary size around parks in San Francisco, using Mapbox Gl and Turf.js. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. Please note: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
 See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](https://github.com/boeric/geo-buffer)
+
+## geo-locate 
+
+The script generates latitude and longitude information for each item in the input array, using the Google geocoder
 
 ## canvas-in-svg
 
@@ -39,10 +48,6 @@ In this example, up to 50,000 elements can be generated and visualized in the em
 
 See the project live [here](http://boeric.github.io/canvas-in-svg/), repo [here](https://github.com/boeric/canvas-in-svg)
 
-## vertex-generator
-
-The Vertex Generator allows rapid capture of verticies of a simulated path of a vechicle or person. Each captured vertex is a geo location where the path is changing direction. Each vertex also has a notion of speed. The geo locations and speed information can be used by a post processing tool to "fill in" the geo location between the verticies.
-
 ## timestamped-geo-points
 
 Expands an array of geo vertices to timestamped geo points. Previously captured verticies (input file) indicate geo locations where a geo path is changing direction. For example, a vehicle's path along a road may be captured with a set of verticies, each of which indicate where the vechicle's path is changing direction. 
@@ -51,13 +56,22 @@ Expands an array of geo vertices to timestamped geo points. Previously captured 
 
 The real time chart is a resuable Javascript component that accepts real time data. The chart's time domain is moving with the passage of time, which means that any data placed in the chart eventually will age out and leave the chart. In addition to the main chart, the component also manages a "focus" window with a viewport (d3.brush) that can moved and sized to view an arbitrary portion of the time series data.
 
+## shootings
+
+The visualization is using data from www.shootingtracker.com and covers the period January 2013 through early December 2015. The event data (comprised of over 1000 shooting events) has been grouped into weeks.
+
+## migrants
+
+Slippy (zoomable/draggable) map and tile management, with data layer comprised of semitransparent circles. Also demonstrates an info overlay activated when the user is hovering over a data item.
 
 
 
-[npm-img]: https://img.shields.io/npm/v/array-unsort.svg
-[npm-url]: https://npmjs.org/package/array-unsort
-[build-size-img]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
-[build-size-url]: https://bundlephobia.com/result?p=array-unsort
+
+
+[npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
+[npm-url-array-unsort]: https://npmjs.org/package/array-unsort
+[build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
+[build-size-url-array-unsort]: https://bundlephobia.com/result?p=array-unsort
 
 [npm-img-array-correl]: https://img.shields.io/npm/v/array-correl.svg
 [npm-url-array-correl]: https://npmjs.org/package/array-correl
