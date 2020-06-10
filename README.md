@@ -20,9 +20,6 @@ Module on `npm` [here](https://www.npmjs.com/package/array-correl), repo [here](
 
 ## license-suspensions
 
-![](https://github.com/boeric/license-suspensions/blob/master/screenshot.png)
-
-
 The visualization demonstrates how to syncronize the state of two side-by-side Mapbox GL based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
 
 The project was made for the East Bay Community Law Center's **Back on the Road** initiative. The initiative's purpose was to highlight injustices in how driver licenses were suspended for failure to appear in court or failure to pay traffic tickets. As the visualization shows, there is significant correlation between driver license suspensions and poverty level 
