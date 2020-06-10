@@ -110,6 +110,28 @@ Demos of how to access the Github API to obtain metadata about a users' public R
 
 See the project live [here](https://bl.ocks.org/boeric/4950f26655187c33bedba9728e98a3c2), repo [here](https://gist.github.com/boeric/4950f26655187c33bedba9728e98a3c2)
 
+## infinite-scroll
+
+React demo of inifite scroll of images from the **cat.api** where only a finite number of images are kept in the browser.
+
+See the project live [here](http://demo.boe.net:8080/), repo [here](https://github.com/boeric/infinite-scroll)
+
+## event-hub
+
+The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: a) server, b) client web app, c) analytics web app
+
+The **server** is a combined **HTTP** and **Websockets** server. It delivers the required HTML files and related dependencies (assets and scripts). It also establishes a Websockets listener and dispatcher of Websockets messages. The server maintains a default configuration for event handling for each **client**. The server forwards to the **analytics** app the event summary messages produced by the **client** app. It also forwards configuration messages from the **analytics** app to the **client** app. 
+
+**Please note** that there may be multiple instances of **client** and **analytics** web apps, doesn't matter – all information is distributed to the **full ecosystem** of attached apps using **Websockets**.
+
+The **Client**, more specifically the **eventhub** is the most interesting piece of the project. The client loads an image with some buttons. Two scripts are used, the **eventhub** and **events**. The former is an event tracker/consolidator/forwarder, and the latter is an event generator. 
+
+The event manager **eventhub.js** upon init, first checks for Websockets support (and terminates if no such support is available). It then attempts to establish communication with the **server** over Websockets and sets an event handler for incoming Websockets messages. It then adds the **eventhub** function to the **window** object, making it available to all scripts running in the browser.
+
+Run the **client** web app [here](http://demo.boe.net:5000/). Then in a separate window, run the **analytics** web app [here](http://demo.boe.net:5000/analytics). Then trigger events in the **client** (by moving the mouse) and watch the events being consolidated and forwarded to the **analytics** app
+
+Repo not yet published
+
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
 [build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
