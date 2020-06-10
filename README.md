@@ -30,28 +30,6 @@ The dataset is based on driver license suspensions from California DMV and East 
 
 See the project live [here](https://boeric.github.io/license-suspensions/), repo [here](https://github.com/boeric/license-suspensions)
 
-## css-combinator-demo
-
-Demo of CSS selector **combinators** using only native DOM methods.
-
-See the project live [here](https://bl.ocks.org/boeric/780904f668c1e2f27cdac8aa011e45cb), repo [here](https://gist.github.com/boeric/780904f668c1e2f27cdac8aa011e45cb)
-
-## css-box-model-demo
-
-A demo of the **CSS Box Model**, using **D3**. The project demonstrates a bunch of things, for example: 
-- The effects of margin, border, padding and inner content dimensions of the overall size of DOM elements
-- The optional use of **Flexbox** in laying out elements
-- How to calculate the full dimension of an element
-- How to extract current inline styles of elements
-
-See the project live [here](https://bl.ocks.org/boeric/cbb5b416091e74c70b8480e68b6d21e1), repo [here](https://github.com/boeric/css-box-model-demo)
-
-## github-api-demo
-
-Demos of how to access the Github API to obtain metadata about a users' public Repos and Gists. In addition, it demos how to do this using only native DOM methods (as no external libraries are used). It does however use Bootstrap for some styling. Also demos **async-await** when using **fetch**.
-
-See the project live [here](https://bl.ocks.org/boeric/4950f26655187c33bedba9728e98a3c2), repo [here](https://gist.github.com/boeric/4950f26655187c33bedba9728e98a3c2)
-
 ## geo-buffer
 
 Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygons, in this case parks in San Francisco. It is using **MapboxGL** and **Turf**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. Please note: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
@@ -109,6 +87,28 @@ See the project live [here](http://bl.ocks.org/boeric/47aceae44bb5f8b63d7b), rep
 Demo of drag and drop using only native HTML5 DOM methods.
 
 See the project live [here](https://bl.ocks.org/boeric/deb4dfb7bc6f1f9e9a5b3bdd4ad2cc2c), repo [here](https://github.com/boeric/drag-and-drop)
+
+## css-combinator-demo
+
+Demo of CSS selector **combinators** using only native DOM methods.
+
+See the project live [here](https://bl.ocks.org/boeric/780904f668c1e2f27cdac8aa011e45cb), repo [here](https://gist.github.com/boeric/780904f668c1e2f27cdac8aa011e45cb)
+
+## css-box-model-demo
+
+A demo of the **CSS Box Model**, using **D3**. The project demonstrates a bunch of things, for example: 
+- The effects of margin, border, padding and inner content dimensions of the overall size of DOM elements
+- The optional use of **Flexbox** in laying out elements
+- How to calculate the full dimension of an element
+- How to extract current inline styles of elements
+
+See the project live [here](https://bl.ocks.org/boeric/cbb5b416091e74c70b8480e68b6d21e1), repo [here](https://github.com/boeric/css-box-model-demo)
+
+## github-api-demo
+
+Demos of how to access the Github API to obtain metadata about a users' public Repos and Gists. In addition, it demos how to do this using only native DOM methods (as no external libraries are used). It does however use Bootstrap for some styling. Also demos **async-await** when using **fetch**.
+
+See the project live [here](https://bl.ocks.org/boeric/4950f26655187c33bedba9728e98a3c2), repo [here](https://gist.github.com/boeric/4950f26655187c33bedba9728e98a3c2)
 
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
