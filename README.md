@@ -30,6 +30,18 @@ The dataset is based on driver license suspensions from California DMV and East 
 
 See the project live [here](https://boeric.github.io/license-suspensions/), repo [here](https://github.com/boeric/license-suspensions)
 
+## css-combinator-demo
+
+Demo of CSS selector **combinators** using only native DOM methods
+
+See the project alive [here](https://bl.ocks.org/boeric/780904f668c1e2f27cdac8aa011e45cb), repo [here](https://gist.github.com/boeric/780904f668c1e2f27cdac8aa011e45cb)
+
+## github-api-demo
+
+Demos of how to access the Github API to obtain metadata about a users public Repos and Gists. In addition, it demos how to do this using only native DOM methods (as no external libraries are used). It does however use Bootstrap for some styling. The Gist demos **`async-await`** when using **`fetch`**.
+
+See the project alive [here](https://bl.ocks.org/boeric/4950f26655187c33bedba9728e98a3c2), repo [here](https://gist.github.com/boeric/4950f26655187c33bedba9728e98a3c2)
+
 ## geo-buffer
 
 Creates "buffers" of arbitrary size around parks in San Francisco, using Mapbox Gl and Turf.js. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. Please note: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
@@ -80,7 +92,7 @@ Repo is [here](https://github.com/boeric/timestamped-geo-points)
 
 ## shootings
 
-The visualization is a demo of a 'slippy' (zoomable/draggable) map, and is using data from www.shootingtracker.com and covers the period January 2013 through early December 2015. The event data (comprised of over 1000 shooting events) has been grouped into weeks.
+The visualization is a demo of a 'slippy' (zoomable/draggable) map, using data from www.shootingtracker.com and covers the period January 2013 through early December 2015. The event data (comprised of over 1000 shooting events) has been grouped into weeks.
 
 See the project alive [here](http://bl.ocks.org/boeric/c1fe5650da3d6e790706), repo [here](https://github.com/boeric/shootings)
 
