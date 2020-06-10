@@ -1,3 +1,5 @@
+## Demos
+
 ## array-unsort
 
 [![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
@@ -38,17 +40,25 @@ See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](h
 
 The Vertex Generator allows rapid capture of verticies of a simulated path of a vechicle or person. Each captured vertex is a geo location where the path is changing direction. Each vertex also has a notion of speed. The geo locations and speed information can be used by a post processing tool to "fill in" the geo location between the verticies.
 
-See the project live [here](https://boeric.github.io/vertex-generator/)
-
-## real-time-chart-multi
-
-The real time chart is a resuable Javascript component that accepts real time data. The purpose is to show the arrival time of real time events (or lack thereof), piped to the browser (for example via Websockets). Various attributes of each event can be articulated using **size**, **color** and **opacity** of the object generated for the event. 
-
-See the project alive [here](http://boeric.github.io/d3RealTimeChartMulti/)
+See the project live [here](https://boeric.github.io/vertex-generator/), repo [here](https://github.com/boeric/vertex-generator)
 
 ## geo-locate 
 
-The script generates latitude and longitude information for each item in the input array, using the Google geocoder
+The script generates latitude and longitude information for each item in an input array, using the Google geocoder
+
+Repo is [here](https://github.com/boeric/GeoLocate)
+
+## real-time-chart-multi
+
+The **`real-time-chart-multi`** project is a resuable Javascript component that accepts real time data from **multiple** data streams. The purpose is to show the arrival time of real time events (or lack thereof), piped to the browser (for example via Websockets). Various attributes of each event can be articulated using **size**, **color** and **opacity** of the object generated for the event. 
+
+See the project alive [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
+
+## real-time-chart
+
+Similar to **`real-time-chart-multi`** (see above), but manages a single data stream.
+
+See the project alive [here](http://boeric.github.io/d3RealTimeChart/)
 
 ## canvas-in-svg
 
@@ -61,10 +71,6 @@ See the project live [here](http://boeric.github.io/canvas-in-svg/), repo [here]
 ## timestamped-geo-points
 
 Expands an array of geo vertices to timestamped geo points. Previously captured verticies (input file) indicate geo locations where a geo path is changing direction. For example, a vehicle's path along a road may be captured with a set of verticies, each of which indicate where the vechicle's path is changing direction. 
-
-## real-time-chart
-
-The real time chart is a resuable Javascript component that accepts real time data. The chart's time domain is moving with the passage of time, which means that any data placed in the chart eventually will age out and leave the chart. In addition to the main chart, the component also manages a "focus" window with a viewport (d3.brush) that can moved and sized to view an arbitrary portion of the time series data.
 
 ## shootings
 
