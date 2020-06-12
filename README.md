@@ -169,7 +169,7 @@ The server also delivers the React web application on demand. The server and web
 
 The system has been operational since 2017 and **no data packets have been lost** other than during power outage at the sensor locations. As of June 2020, the sensors have each delivered over **1.5 million packets** to the server.
 
-**Click** the screenshot below to see image in high resolution
+Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84548914-9a8cc500-acbb-11ea-8161-470bd1d5695c.png" width="700"/>
 
