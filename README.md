@@ -146,11 +146,6 @@ See the project live [here](http://www.sensorvue.com)
 
 Repo not yet published
 
-![Fryksta20170701IMG_7113](https://user-images.githubusercontent.com/4840824/84451012-a8ccd980-ac06-11ea-85e7-10c8ba57db90.jpg)
-
-
-
-
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
 [build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
