@@ -165,7 +165,7 @@ A **flow control protocol** is implemented between the pies and the server to el
 
 In addition to the sensor data embedded in the data payload, a number of other values are provided in the payload, such the sequence number (which increments every minute), the current wifi link quality and bitrate, the uptime, the current temperature of the CPU, and sweep time (the time from probing the first sensor attached to the pie to obtaining the result from the last sensor)
 
-The server also delivers the React web application on demand. The server and web app use **Websockets** for real time transmission of received sensor data to the web app.  
+The server also delivers the React web application on demand. The server and web app use **Websockets** for real time transmission of received sensor data to the web app. The server is also providing an **API** which the web app uses to retrieve non-real-time data
 
 The system has been operational since 2017 and **no data packets have been lost** other than during power outage at the sensor locations. As of June 2020, the sensors have each delivered over **1.5 million packets** to the server. Some pies died however, probably due to failure of the flash memory cards.
 
