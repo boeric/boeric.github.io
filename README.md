@@ -44,7 +44,11 @@ See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](h
 
 ## vertex-generator
 
-The vertex generator allows rapid capture of geo verticies of a simulated path of a vechicle or person. Each captured vertex is a geo location where the path is changing direction. Each vertex also has a notion of speed. The geo locations and speed information can be used by a post processing tool to "fill in" the geo location between the verticies.
+The vertex generator allows rapid capture of geo verticies of a simulated path of a vechicle or person. Each captured vertex is a geo location where the path is changing direction. A syntactically valid GeoJSON structure is produced when the button is clicked. The GeoJSON structure contains both the **Point**s and **LineString** elements.  
+
+<img src="https://user-images.githubusercontent.com/4840824/84546165-8645c980-acb5-11ea-8598-6589d925b6c3.png" width="500"/>
+
+The geo locations and speed information can be used by a post processing tool to "fill in" the geo location between the verticies.
 
 See the project live [here](https://boeric.github.io/vertex-generator/), repo [here](https://github.com/boeric/vertex-generator)
 
