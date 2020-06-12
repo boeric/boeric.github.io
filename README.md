@@ -146,7 +146,34 @@ Repo not yet published
 
 ## sensor-vue
 
-The sensor-vue project is a full stack implementation of a) sensor software running on remote Raspberry PIs, b) an http server implementation used to collect the data from the remote sensors, and c) a React webapp to view the collected data. 
+The sensor-vue project is a full stack implementation of:
+
+a) Sensor software running on a dozen remote **Raspberry PIs**, 
+b) An HTTP server implementation, using **Node** and **Express**
+c) A **React** webapp to view the collected sensor data 
+
+The Raspberry Pies are programmed to sample the various attached sensors (temperature, water, humidity and air pressure) every minute and to forward the collected data to the Server component (also every minute) via HTTP. 
+
+A **flow control protocol** is implemented between the pies and the server to eliminate any chance that the server becomes overloaded after a long server outage. In essence, the following occurs at every upload moment:
+
+1. The pie tells the server how many data packets are contained in the pie's data buffer. Normally that would be 1 packet, but after a server outage, the pie's buffer will contain a number of packets equal to the server's (or communication link) outage in minutes
+2. The server **directs** the pie to send either all packets or a subset of the packets that may have stacked up
+3. The pie sends the number of packets it is **allowed** to send, in FIFO order
+4. The server stores the packets in a DB (currently file system)
+5. At each upload moment, the server directs the pie to **update its internal clock** to the time provided by the server, which is set to **UTC**
+6. While each pie is sampling its sensors and sends the data every minute to the server (as outlined above), to avoid that the server is hit simultaneously by all sensors attempting to push the latest data, there is a time offset in seconds from the beginning of the minute determined by the last nibble in the pie's MAC address (time dithering).
+
+In addition to the sensor data embedded in the data payload, a number of other values are provided in the data payload, such the sequence number (which increments every minute), the current wifi link quality and bitrate, the uptime, the current temperature of the CPU, and sweep time (the time from probing the first sensor attached to the pie to obtaining the result from the last sensor)
+
+The server also delivers the React web application on demand. The server and web app use **Websockets** for real time transmission of received sensor data to the web app.  
+
+The system has been operational since 2017 and **no data packets have been lost** other than during power outage at the sensor locations. As of June 2020, the sensors have each delivered over **1.5 million packets** to the server.
+
+**Click** the screenshot below to see image in high resolution
+
+<img src="https://user-images.githubusercontent.com/4840824/84548914-9a8cc500-acbb-11ea-8161-470bd1d5695c.png" width="700"/>
+
+**Please note**: Login is required to see sensor status
 
 See the project live [here](http://www.sensorvue.com)
 
