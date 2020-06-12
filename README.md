@@ -24,6 +24,8 @@ The module on **npm** [here](https://www.npmjs.com/package/array-correl), repo [
 
 The visualization demonstrates how to syncronize the state of two side-by-side MapboxGL-based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
 
+![bla](https://user-images.githubusercontent.com/4840824/84468972-d7fa3f80-ac34-11ea-9d0a-b29c5d749c0e.png)
+
 The project was made for the East Bay Community Law Center's **Back on the Road** initiative. The initiative's purpose was to highlight injustices in how driver licenses were suspended for failure to appear in court or failure to pay traffic tickets. As the visualization shows, there is significant correlation between driver license suspensions and poverty level 
 
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative description [here](https://ebclc.org/backontheroad/problem/)
