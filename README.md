@@ -24,7 +24,7 @@ The module on **npm** [here](https://www.npmjs.com/package/array-correl), repo [
 
 The visualization demonstrates how to syncronize the state of two side-by-side MapboxGL-based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
 
-![bla](https://user-images.githubusercontent.com/4840824/84468972-d7fa3f80-ac34-11ea-9d0a-b29c5d749c0e.png)
+<img src="https://user-images.githubusercontent.com/4840824/84468972-d7fa3f80-ac34-11ea-9d0a-b29c5d749c0e.png" width="700"/>
 
 The project was made for the East Bay Community Law Center's **Back on the Road** initiative. The initiative's purpose was to highlight injustices in how driver licenses were suspended for failure to appear in court or failure to pay traffic tickets. As the visualization shows, there is significant correlation between driver license suspensions and poverty level 
 
@@ -34,7 +34,11 @@ See the project live [here](https://boeric.github.io/license-suspensions/), repo
 
 ## geo-buffer
 
-Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygons, in this case parks in San Francisco. It is using **MapboxGL** and **Turf**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. Please note: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
+Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygons, in this case parks in San Francisco. It is using **MapboxGL** and **Turf**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. 
+
+<img src="https://user-images.githubusercontent.com/4840824/84538126-fa787100-aca5-11ea-831c-7768301435f7.png" width="500"/>
+
+**Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
 See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](https://github.com/boeric/geo-buffer)
 
@@ -122,7 +126,6 @@ See the project live [here](https://www.lccr.com/programs/paying-poor-bias-dispa
 
 The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: a) server, b) client web app, c) analytics web app
 
-![composite-small](https://user-images.githubusercontent.com/4840824/84465018-dc215f80-ac2a-11ea-972f-20849fbb15fa.png)
 <img src="https://user-images.githubusercontent.com/4840824/84465018-dc215f80-ac2a-11ea-972f-20849fbb15fa.png" width="700"/>
 
 The **server** is a combined **HTTP** and **Websockets** server. It delivers the required HTML files and related dependencies (assets and scripts). It also establishes a Websockets listener and dispatcher of Websockets messages. The server maintains a default configuration for event handling for each **client**. The server forwards to the **analytics** app the event summary messages produced by the **client** app. It also forwards configuration messages from the **analytics** app to the **client** app. 
