@@ -126,6 +126,8 @@ See the project live [here](https://www.lccr.com/programs/paying-poor-bias-dispa
 
 The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: a) server, b) client web app, c) analytics web app
 
+![composite-small](https://user-images.githubusercontent.com/4840824/84465018-dc215f80-ac2a-11ea-972f-20849fbb15fa.png)
+
 The **server** is a combined **HTTP** and **Websockets** server. It delivers the required HTML files and related dependencies (assets and scripts). It also establishes a Websockets listener and dispatcher of Websockets messages. The server maintains a default configuration for event handling for each **client**. The server forwards to the **analytics** app the event summary messages produced by the **client** app. It also forwards configuration messages from the **analytics** app to the **client** app. 
 
 **Please note** that there may be multiple instances of **client** and **analytics** web apps, doesn't matter – all information is distributed to the **full ecosystem** of attached apps using **Websockets**.
