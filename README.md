@@ -50,12 +50,6 @@ Expands an array of geo vertices to timestamped geo points. Previously captured 
 
 Repo is [here](https://github.com/boeric/timestamped-geo-points)
 
-## geo-locate 
-
-The script generates latitude and longitude information for each item in an input array, using the Google geocoder
-
-Repo is [here](https://github.com/boeric/GeoLocate)
-
 ## real-time-chart-multi
 
 The **real-time-chart-multi** project is a resuable Javascript component that accepts real time data from **multiple** data streams. The purpose is to show the arrival time of real time events (or lack thereof), piped to the browser (for example via Websockets). Various attributes of each event can be articulated using **size**, **color** and **opacity** of the object generated for the event. 
@@ -129,6 +123,7 @@ See the project live [here](https://www.lccr.com/programs/paying-poor-bias-dispa
 The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: a) server, b) client web app, c) analytics web app
 
 ![composite-small](https://user-images.githubusercontent.com/4840824/84465018-dc215f80-ac2a-11ea-972f-20849fbb15fa.png)
+<img src="https://user-images.githubusercontent.com/4840824/84465018-dc215f80-ac2a-11ea-972f-20849fbb15fa.png" width="700"/>
 
 The **server** is a combined **HTTP** and **Websockets** server. It delivers the required HTML files and related dependencies (assets and scripts). It also establishes a Websockets listener and dispatcher of Websockets messages. The server maintains a default configuration for event handling for each **client**. The server forwards to the **analytics** app the event summary messages produced by the **client** app. It also forwards configuration messages from the **analytics** app to the **client** app. 
 
