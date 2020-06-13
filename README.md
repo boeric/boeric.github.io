@@ -140,7 +140,7 @@ The **Client**, more specifically the **eventhub** is the most interesting piece
 
 The event manager **eventhub.js** upon init, first checks for Websockets support (and terminates if no such support is available). It then attempts to establish communication with the **server** over Websockets and sets an event handler for incoming Websockets messages. It then adds the **eventhub** function to the **window** object, making it available to all scripts running in the browser.
 
-Run the **client** web app [in a separate window](http://demo.boe.net:5000/). Then run the **analytics** web app [in another separate window](http://demo.boe.net:5000/analytics). Then trigger events in the **client** (by moving the mouse) and watch the events being consolidated and forwarded to the **analytics** app
+Run the **client** web app [in a separate window](http://demo.boe.net:5000/). Then run the **analytics** web app [in another separate window](http://demo.boe.net:5000/analytics). Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
 
 Repo not yet published
 
