@@ -173,7 +173,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84548914-9a8cc500-acbb-11ea-8161-470bd1d5695c.png" width="700"/>
 
-**Please note**: Login is required to see sensor status
+**Please note**: Login is required to see sensor status. However, in the debugger you can view the **realtime sensor data streaming over websockets**. 
 
 See the project live [here](http://www.sensorvue.com)
 
