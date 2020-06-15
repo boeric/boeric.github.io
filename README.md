@@ -74,7 +74,7 @@ The visualization demonstrates the use of an embedded Canvas in an SVG element. 
 
 In this example, up to 50,000 items can be generated and visualized in the embedded canvas with no impact to the DOM (other than creating the canvas). Mouse hit detection of data elements is performed with a 4x4 pixel zone under the current mouse position. 
 
-See the project live [here](http://boeric.github.io/canvas-in-svg/), repo [here](https://github.com/boeric/canvas-in-svg)
+See the project live [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4), repo [here](https://github.com/boeric/canvas-in-svg)
 
 ## shootings
 
