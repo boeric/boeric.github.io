@@ -9,6 +9,8 @@ The **npm** module generates an array of arbitrary size of pairs of numbers with
 
 The module on **npm** [here](https://www.npmjs.com/package/array-correl), repo [here](https://github.com/boeric/array-correl)
 
+Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
+
 ## array-unsort
 
 [![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
