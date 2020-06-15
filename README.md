@@ -1,24 +1,24 @@
 ## Demos
 
-## array-unsort
-
-[![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
-[![Build Size][build-size-img-array-unsort]][build-size-url-array-unsort]
-
-This **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
-
-The module on **npm** [here](https://www.npmjs.com/package/array-unsort), repo [here](https://github.com/boeric/array-unsort)
-
-Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
-
 ## array-correl
 
 [![NPM package][npm-img-array-correl]][npm-url-array-correl]
 [![Build Size][build-size-img-array-correl]][build-size-url-array-correl]
 
-This **npm** module generates random values with a specified correlation. It also allows inspection of an array to determine correlation between the array's values. The **generate** method takes the inputs count, desired correlation, mean and deviation and generates an array that satisfies the input parameters. The **inspect** method inspects an array and provides several statistics, such as correlation coefficient, deviation, mean and extent (min, max).
+The **npm** module generates an array of arbitrary size of pairs of numbers with a specified correlation. It also allows inspection of such array to determine the **pearson** correlation coefficient of the array's value pairs. The **generate** method takes the input count (array length), desired correlation, mean and deviation, and from this generates an array of numeric pairs that satisfies the input parameters. The **inspect** method inspects such array and provides several statistics, such as the actual pearson correlation coefficient, deviation, mean and extent.
 
 The module on **npm** [here](https://www.npmjs.com/package/array-correl), repo [here](https://github.com/boeric/array-correl)
+
+## array-unsort
+
+[![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
+[![Build Size][build-size-img-array-unsort]][build-size-url-array-unsort]
+
+The **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
+
+The module on **npm** [here](https://www.npmjs.com/package/array-unsort), repo [here](https://github.com/boeric/array-unsort)
+
+Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
 ## license-suspensions
 
