@@ -181,6 +181,17 @@ See the project live [here](http://www.sensorvue.com)
 
 Repo not yet published
 
+## network-viz
+
+Network visualization of some 400 nodes/links in 3d using the **d3-force-graph** npm module.  
+
+<img src="https://user-images.githubusercontent.com/4840824/84821893-b8ff0300-afd0-11ea-99f1-479179fd619a.png" width="700"/>
+
+See the project live [here](http://demo.boe.net:8000)
+
+Repo not yet published
+
+
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
 [build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
