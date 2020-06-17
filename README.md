@@ -132,7 +132,11 @@ Repo not yet published
 
 ## infinite-scroll
 
-React demo of inifite scroll of images from the **cat.api** where only a finite number of images are kept in the browser.
+**React app** demo of inifite scroll of images from the **cat.api** where only a finite number of images are kept in the browser. The project demonstrates loading resources **on-demand** during scrolling actions while keeping the browser **memory requirement** low. It also demonstrates how to keep the images in a **stable** position as the user is scrolling up/down using an API that provides **random** images.
+
+The overlay window shows the currently visible images in **yellow** and the images kept in the browser in **gray**. 
+
+<img src="https://user-images.githubusercontent.com/4840824/84854463-91328e00-b016-11ea-8c1d-9690615566b8.png" width="400"/>
 
 See the project live [here](http://demo.boe.net:8080/), repo [here](https://github.com/boeric/infinite-scroll)
 
