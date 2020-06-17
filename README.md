@@ -56,7 +56,11 @@ Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
 
 The visualization demonstrates the use of an embedded Canvas in an SVG element. While this example includes only a single SVG element, an embedded canvas may make sense when a number of SVG elements needs to be generated, with each requiring to render large datasets that would othwewise overwhelm the DOM.
 
-In this example, up to 50,000 items can be generated and visualized in the embedded canvas with no impact to the DOM (other than creating the canvas). Mouse hit detection of data elements is performed with a 4x4 pixel zone under the current mouse position. 
+<img src="https://user-images.githubusercontent.com/4840824/84855916-2aaf6f00-b01a-11ea-89b7-2704f202f6ab.png" width="600"/>
+
+In this implementation, Up to 50,000 items can be generated and visualized in the embedded canvas with no impact to the DOM (other than creating the canvas). **Mouse hit detection** of data elements is performed with a **4x4** pixel zone under the current mouse position. 
+
+The app is using the **array-correl** npm module referenced at the top
 
 See the project live [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4), repo [here](https://github.com/boeric/canvas-in-svg)
 
