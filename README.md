@@ -44,13 +44,19 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](https://github.com/boeric/geo-buffer)
 
-## real-time-chart-multi
+## dataset-insights
 
-The **real-time-chart-multi** project is a resuable Javascript component that accepts real time data from **multiple** data streams. The purpose is to show the arrival time of real time events (or lack thereof), piped to the browser (for example via Websockets). Various attributes of each event can be articulated using **size**, **color** and **opacity** of the object generated for the event. 
+The objective with this project is to provide near-instanteous insights of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
 
-See the project live [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
+When a column is clicked, a red banner is shown on top of the column (please see screenshot below). Scatter plots of the **other** numeric columns are then generated (with x values from the column and y values from the selected column). The **pearson** correlation coefficent is calculated and displayed and a red line is drawn on top of the scatterplot with a slope equal to the correlation coefficient. The line's opacity is driven by the absolute value of the correlation coefficient.  
 
-Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
+Open the screenshot below in **another browser window** to see image details.
+
+<img src="https://user-images.githubusercontent.com/4840824/84852452-bd97db80-b011-11ea-8871-55dcb2ad689f.png" width="600"/>
+
+See the project live [here](http://demo.boe.net:7000/)
+
+Repo not yet published
 
 ## canvas-in-svg
 
@@ -71,20 +77,6 @@ A variety of smaller projects, most of them using **D3**
 <img src="https://user-images.githubusercontent.com/4840824/84855197-621d1c00-b018-11ea-9537-3356a878b35a.png" width="600"/>
 
 See the Blocks [here](https://bl.ocks.org/boeric)
-
-## dataset-insights
-
-The goal with this project is to provide near-instanteous insights of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
-
-When a column is clicked, a red banner is shown on top of the column (please see screenshot below). Scatter plots of the **other** numeric columns are then generated (with x values from the column and y values from the selected column). The **pearson** correlation coefficent is calculated and displayed and a red line is drawn on top of the scatterplot with a slope equal to the correlation coefficient. The line's opacity is driven by the absolute value of the correlation coefficient.  
-
-Open the screenshot below in **another browser window** to see image details.
-
-<img src="https://user-images.githubusercontent.com/4840824/84852452-bd97db80-b011-11ea-8871-55dcb2ad689f.png" width="600"/>
-
-See the project live [here](http://demo.boe.net:7000/)
-
-Repo not yet published
 
 ## infinite-scroll
 
@@ -167,6 +159,16 @@ See the project live [here](http://demo.boe.net:8000)
 
 Repo not yet published
 
+## real-time-chart-multi
+
+The **real-time-chart-multi** project is a resuable Javascript component that accepts real time data from **multiple** data streams. The purpose is to show the arrival time of real time events (or lack thereof), piped to the browser (for example via Websockets). Various attributes of each event can be articulated using **size**, **color** and **opacity** of the object generated for the event. 
+
+<img src="https://user-images.githubusercontent.com/4840824/84856371-5c750580-b01b-11ea-88bc-f40714b1d5c9.png" width="600"/>
+
+See the project live [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
+
+Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
+
 ## vertex-generator
 
 The vertex generator allows rapid capture of geo verticies of a simulated path of a vechicle or person. Each captured vertex is a geo location where the path is changing direction. A syntactically valid **GeoJSON** structure is produced when the button is clicked. The GeoJSON structure contains both the **Point**s and **LineString** elements.  
@@ -176,12 +178,6 @@ The vertex generator allows rapid capture of geo verticies of a simulated path o
 The geo locations and speed information can be used by a post processing tool to "fill in" the geo location between the verticies.
 
 See the project live [here](https://boeric.github.io/vertex-generator/), repo [here](https://github.com/boeric/vertex-generator)
-
-## timestamped-geo-points
-
-Expands an array of geo vertices to timestamped geo points. Previously captured verticies (input file) indicate geo locations where a geo path is changing direction. For example, a vehicle's path along a road may be captured with a set of verticies, each of which indicate where the vechicle's path is changing direction. 
-
-Repo is [here](https://github.com/boeric/timestamped-geo-points)
 
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
