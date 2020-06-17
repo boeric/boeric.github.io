@@ -24,7 +24,7 @@ Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
 ## license-suspensions
 
-The visualization demonstrates how to syncronize the state of two side-by-side MapboxGL-based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
+The visualization demonstrates how to syncronize the state of two side-by-side **MapboxGL**-based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
 
 <img src="https://user-images.githubusercontent.com/4840824/84468972-d7fa3f80-ac34-11ea-9d0a-b29c5d749c0e.png" width="700"/>
 
@@ -64,7 +64,7 @@ The visualization demonstrates the use of an embedded Canvas in an SVG element. 
 
 <img src="https://user-images.githubusercontent.com/4840824/84855916-2aaf6f00-b01a-11ea-89b7-2704f202f6ab.png" width="600"/>
 
-In this implementation, Up to 50,000 items can be generated and visualized in the embedded canvas with no impact to the DOM (other than creating the canvas). **Mouse hit detection** of data elements is performed with a **4x4** pixel zone under the current mouse position. 
+In this implementation, up to 50,000 items can be generated and visualized in the embedded canvas with no impact to the DOM (other than creating the canvas). **Mouse hit detection** of data elements is performed with a **4x4** pixel zone under the current mouse position. 
 
 The app is using the **array-correl** npm module referenced at the top
 
@@ -90,7 +90,7 @@ See the project live [here](http://demo.boe.net:8080/), repo [here](https://gith
 
 ## traffic-fines
 
-Interactive map that shows traffic fines across the US. The visualization was created for the Laywers' Committee for Civil Rights of the San Francisco Bay Area, to illustrate the high traffic fines in the state of California (please see screenshot) relative to other states. The user can select one of three data series (Fines for Redlight, Stop sign and Speeding violations). By hovering over a state, an overlay shows the specific data to that state. As the user is moving the mouse over the map, the legend at the bottom shows each state's position.
+Interactive map that shows traffic fines across the US. The visualization was created for the **Laywers' Committee for Civil Rights** of the San Francisco Bay Area, to illustrate the high traffic fines in the state of California (please see screenshot) relative to other states. The user can select one of three data series (Fines for Redlight, Stop sign and Speeding violations). By hovering over a state, an overlay shows the specific data to that state. As the user is moving the mouse over the map, the legend at the bottom shows each state's position.
 
 <img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
@@ -114,7 +114,10 @@ Repo not yet published
 
 ## event-hub
 
-The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: a) server, b) client web app, c) analytics web app
+The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: 
+- Server
+- Client web app
+- Analytics web app
 
 <img src="https://user-images.githubusercontent.com/4840824/84465018-dc215f80-ac2a-11ea-972f-20849fbb15fa.png" width="700"/>
 
