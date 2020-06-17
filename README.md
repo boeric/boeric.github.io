@@ -96,6 +96,22 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/) (please scroll down to the map), repo [here](https://github.com/boeric/traffic-fines)
 
+## network-viz
+
+Network visualization of a **subset** of an **actual compute infrastructure** with some 400 nodes/links in 3d using the **d3-force-graph** npm module. As can be seen from the viz, some segments are disconnected from core infrastructure. The viz provides insights into the topology of the network that would be difficult to obtain through any other means. 
+
+<img src="https://user-images.githubusercontent.com/4840824/84821893-b8ff0300-afd0-11ea-99f1-479179fd619a.png" width="700"/>
+
+See the project live [here](http://demo.boe.net:8000)
+
+How to use: 
+- Hover over a node to see the node details
+- To zoom in/out, use the mouse wheel
+- To rotate, drag with the left mouse button down
+- To pan, drag with the right mouse button down
+
+Repo not yet published
+
 ## event-hub
 
 The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: a) server, b) client web app, c) analytics web app
@@ -146,22 +162,6 @@ Open the screenshot below in **another browser window** to see image details.
 **Please note**: Login is required to see sensor status. However, in the debugger you can view the **realtime sensor data streaming over websockets**. 
 
 See the project live [here](http://www.sensorvue.com)
-
-Repo not yet published
-
-## network-viz
-
-Network visualization of subset of an **actual compute infrastructure** with some 400 nodes/links in 3d using the **d3-force-graph** npm module. As can be seen from the viz, some segments are disconnected from core infrastructure. The viz provides insights into the topology of the network that would be difficult to obtain through any other means. 
-
-<img src="https://user-images.githubusercontent.com/4840824/84821893-b8ff0300-afd0-11ea-99f1-479179fd619a.png" width="700"/>
-
-See the project live [here](http://demo.boe.net:8000)
-
-How to use: 
-- Hover over a node to see the node details
-- To zoom in/out, use the mouse wheel
-- To rotate, drag with the left mouse button down
-- To pan, drag with the right mouse button down
 
 Repo not yet published
 
