@@ -138,7 +138,9 @@ See the project live [here](http://demo.boe.net:8080/), repo [here](https://gith
 
 ## traffic-fines
 
-Interactive map that shows traffic fines across the US. The visualization was created for the Laywers' Committee for Civil Rights of the San Francisco Bay Area. The user can select one of three data series (Fines for Redlight, Stop sign and Speeding violations). By hovering over a state, an overlay shows the specific data to that state. As the user is moving the mouse over the map, the legend at the bottom shows each state's position.
+Interactive map that shows traffic fines across the US. The visualization was created for the Laywers' Committee for Civil Rights of the San Francisco Bay Area, to illustrate the high traffic fines in the state of California (please see screenshot) relative to other states. The user can select one of three data series (Fines for Redlight, Stop sign and Speeding violations). By hovering over a state, an overlay shows the specific data to that state. As the user is moving the mouse over the map, the legend at the bottom shows each state's position.
+
+<img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
 See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/) (please scroll down to the map), repo [here](https://github.com/boeric/traffic-fines)
 
