@@ -116,6 +116,14 @@ Demos of how to access the Github API to obtain metadata about a users' public R
 
 See the project live [here](https://bl.ocks.org/boeric/4950f26655187c33bedba9728e98a3c2), repo [here](https://gist.github.com/boeric/4950f26655187c33bedba9728e98a3c2)
 
+## d3-blocks
+
+A variety of smaller projects, most of them using **D3**
+
+<img src="https://user-images.githubusercontent.com/4840824/84855197-621d1c00-b018-11ea-9537-3356a878b35a.png" width="600"/>
+
+See the Blocks [here](https://bl.ocks.org/boeric)
+
 ## dataset-insights
 
 The goal with this project is to provide near-instanteous insights of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
