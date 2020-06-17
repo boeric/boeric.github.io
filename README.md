@@ -186,6 +186,8 @@ The vertex generator allows rapid capture of geo verticies of a simulated path o
 
 The geo locations and speed information can be used by a post processing tool to "fill in" the geo location between the verticies.
 
+To use, create vertexes in the map by clicking. Then click the **Get GEOJson** button, and copy the just-created GEOJson structure to the clipboard. Then drop it into for example [GeoJSONLint](https://geojsonlint.com/), to verify the integrity of the structure.
+
 See the project live [here](https://boeric.github.io/vertex-generator/), repo [here](https://github.com/boeric/vertex-generator)
 
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
