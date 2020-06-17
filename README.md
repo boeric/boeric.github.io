@@ -30,23 +30,13 @@ The visualization demonstrates how to syncronize the state of two side-by-side M
 
 The project was made for the East Bay Community Law Center's **Back on the Road** initiative. The initiative's purpose was to highlight injustices in how driver licenses were suspended for failure to appear in court or failure to pay traffic tickets. As the visualization shows, there is significant correlation between driver license suspensions and poverty level 
 
-The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative description [here](https://ebclc.org/backontheroad/problem/)
+The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative [here](https://ebclc.org/backontheroad/problem/)
 
 See the project live [here](https://boeric.github.io/license-suspensions/), repo [here](https://github.com/boeric/license-suspensions)
 
-## geo-buffer
-
-Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygons, in this case parks in San Francisco. It is using **MapboxGL** and **Turf**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. 
-
-<img src="https://user-images.githubusercontent.com/4840824/84538126-fa787100-aca5-11ea-831c-7768301435f7.png" width="500"/>
-
-**Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
-
-See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](https://github.com/boeric/geo-buffer)
-
 ## dataset-insights
 
-The objective with this project is to provide near-instanteous insights of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
+The objective with this project is to provide **near-instanteous insights** of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
 
 When a column is clicked, a red banner is shown on top of the column (please see screenshot below). Scatter plots of the **other** numeric columns are then generated (with x values from the column and y values from the selected column). The **pearson** correlation coefficent is calculated and displayed and a red line is drawn on top of the scatterplot with a slope equal to the correlation coefficient. The line's opacity is driven by the absolute value of the correlation coefficient.  
 
@@ -57,6 +47,16 @@ Open the screenshot below in **another browser window** to see image details.
 See the project live [here](http://demo.boe.net:7000/)
 
 Repo not yet published
+
+## geo-buffer
+
+Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygons, in this case parks in San Francisco. It is using **MapboxGL** and **Turf**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. 
+
+<img src="https://user-images.githubusercontent.com/4840824/84538126-fa787100-aca5-11ea-831c-7768301435f7.png" width="500"/>
+
+**Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
+
+See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](https://github.com/boeric/geo-buffer)
 
 ## canvas-in-svg
 
