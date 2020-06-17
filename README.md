@@ -28,7 +28,7 @@ The visualization demonstrates how to syncronize the state of two side-by-side *
 
 <img src="https://user-images.githubusercontent.com/4840824/84468972-d7fa3f80-ac34-11ea-9d0a-b29c5d749c0e.png" width="700"/>
 
-The project was made for the East Bay Community Law Center's **Back on the Road** initiative. The initiative's purpose was to highlight injustices in how driver licenses were suspended for failure to appear in court or failure to pay traffic tickets. As the visualization shows, there is significant correlation between driver license suspensions and poverty level 
+The project was made for the **East Bay Community Law Center**'s ["Back on the Road"](https://ebclc.org/backontheroad/problem/) initiative. The initiative's purpose was to highlight injustices in how driver licenses were suspended for failure to appear in court or failure to pay traffic tickets. As the visualization shows, there is significant correlation between driver license suspensions and poverty level 
 
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative [here](https://ebclc.org/backontheroad/problem/)
 
