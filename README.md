@@ -116,6 +116,20 @@ Demos of how to access the Github API to obtain metadata about a users' public R
 
 See the project live [here](https://bl.ocks.org/boeric/4950f26655187c33bedba9728e98a3c2), repo [here](https://gist.github.com/boeric/4950f26655187c33bedba9728e98a3c2)
 
+## dataset-insights
+
+The goal with this project is to provide near-instanteous insights of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
+
+When a column is clicked, a red banner is shown on top of the column (please see screenshot below). Scatter plots of the **other** numeric columns are then generated (with x values from the column and y values from the selected column). The **pearson** correlation coefficent is calculated and displayed and a red line is drawn on top of the scatterplot with a slope equal to the correlation coefficient. The line's opacity is driven by the absolute value of the correlation coefficient.  
+
+Open the screenshot below in **another browser window** to see image details.
+
+<img src="https://user-images.githubusercontent.com/4840824/84852452-bd97db80-b011-11ea-8871-55dcb2ad689f.png" width="600"/>
+
+See the project live [here](http://demo.boe.net:7000/)
+
+Repo not yet published
+
 ## infinite-scroll
 
 React demo of inifite scroll of images from the **cat.api** where only a finite number of images are kept in the browser.
