@@ -151,11 +151,17 @@ Repo not yet published
 
 ## network-viz
 
-Network visualization of some 400 nodes/links in 3d using the **d3-force-graph** npm module.  
+Network visualization of subset of an **actual compute infrastructure** with some 400 nodes/links in 3d using the **d3-force-graph** npm module. As can be seen from the viz, some segments are disconnected from core infrastructure. The viz provides insights into the topology of the network that would be difficult to obtain through any other means. 
 
 <img src="https://user-images.githubusercontent.com/4840824/84821893-b8ff0300-afd0-11ea-99f1-479179fd619a.png" width="700"/>
 
 See the project live [here](http://demo.boe.net:8000)
+
+How to use: 
+- Hover over a node to see the node details
+- To zoom in/out, use the mouse wheel
+- To rotate, drag with the left mouse button down
+- To pan, drag with the right mouse button down
 
 Repo not yet published
 
