@@ -100,7 +100,7 @@ See the project live [here](https://www.lccr.com/programs/paying-poor-bias-dispa
 
 Network visualization of a simulated **compute infrastructure** with some 400 nodes/links in 3d using the **3d-force-graph** npm module. As can be seen from the viz, some segments are disconnected from core infrastructure. The viz provides insights into the topology of a network that would be difficult to obtain through any other means. 
 
-<img src="https://user-images.githubusercontent.com/4840824/84821893-b8ff0300-afd0-11ea-99f1-479179fd619a.png" width="700"/>
+<img src="https://user-images.githubusercontent.com/4840824/85204342-ba7a4500-b2c8-11ea-80dc-92283cf93989.png" width="700"/>
 
 See the project live [here](http://demo.boe.net:8000)
 
