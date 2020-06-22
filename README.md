@@ -22,6 +22,12 @@ The module on **npm** [here](https://www.npmjs.com/package/array-unsort), repo [
 
 Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
+## zero-config-modern-webapp (brand new)
+
+Zero-config modern front-end web app template, with Webpack (bundler), Babel (compiler), Eslint/Airbnb (strict code style linting), Jest (unit tests), and D3 (data visualization) – all **pre-configured** and ready to go. You just add your code! 
+
+Repo [here](https://github.com/boeric/zero-config-modern-webapp)
+
 ## license-suspensions
 
 The visualization demonstrates how to syncronize the state of two side-by-side **MapboxGL**-based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
