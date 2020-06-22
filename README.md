@@ -131,7 +131,7 @@ The event manager **eventhub.js** upon init, first checks for Websockets support
 
 Run the **client** web app [in a separate window](http://demo.boe.net:5000/). Then run the **analytics** web app [in another separate window](http://demo.boe.net:5000/analytics). Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
 
-Repo not yet published
+Repo [here](https://github.com/boeric/event-hub)
 
 ## sensor-vue
 
