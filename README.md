@@ -22,13 +22,17 @@ The module on **npm** [here](https://www.npmjs.com/package/array-unsort), repo [
 
 Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
-## zero-config-modern-webapp (brand new)
+## zero-config-modern-webapp / zero-config-react-webapp (brand new)
 
-Zero-config modern front-end web app template, with Webpack (bundler), Babel (compiler), Eslint/Airbnb (strict code style linting), Jest (unit tests), and D3 (data visualization) – all **pre-configured** and ready to go. You just add your code! 
+Zero-config modern **Js** front-end or **React** web app templates, with Webpack (bundler), Babel (compiler), Eslint/Airbnb (strict code style linting), Jest (unit tests), and D3 (data visualization) – all **pre-configured** and ready to go. You just add your code! 
+
+In development mode, the webapp (served on `localhost:8080`) will reload after each file save.
 
 Also, these cool new/newish javascript features are enabled: async/await, spread, generators, Map/Set, WeakMap/WeakSet, getters/setters and optional chaining (`?.`) – and work in legacy browsers! 
 
-Repo [here](https://github.com/boeric/zero-config-modern-webapp)
+Js Repo: [here](https://github.com/boeric/zero-config-modern-webapp)
+
+React Repo: [here](https://github.com/boeric/zero-config-react-webapp)
 
 ## license-suspensions
 
