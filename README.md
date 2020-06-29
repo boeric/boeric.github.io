@@ -124,6 +124,16 @@ How to use:
 
 Repo not yet published
 
+## point-cloud-deck-gl
+
+Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertices are rendered above the map. The user can zoom in/out, rotate the map and change the pitch angle with the keyboard. 
+
+<img src="https://user-images.githubusercontent.com/4840824/85961605-66263380-b960-11ea-8f86-e06571dc6f7b.png" width="700"/>
+
+See the project live [here](http://demo.boe.net:7400)
+
+Repo not yet published
+
 ## event-hub
 
 The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: 
