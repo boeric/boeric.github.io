@@ -118,6 +118,9 @@ See the project live [here](http://demo.boe.net:8000)
 
 How to use: 
 - Hover over a node to see the node details
+- Select a node by clicking. The node's group is highlighted in the group list to the left
+- Select a group by clicking in the group list to the left
+- To select all nodes, click the Root group
 - To zoom in/out, use the mouse wheel
 - To rotate, drag with the left mouse button down
 - To pan, drag with the right mouse button down
