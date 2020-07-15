@@ -7,7 +7,9 @@
 
 The **npm** module generates an array of arbitrary size of pairs of numbers with a specified correlation. It also allows inspection of such array to determine the **pearson** correlation coefficient of the array's value pairs. The **generate** method takes the input count (array length), desired correlation, mean and deviation, and from this generates an array of numeric pairs that satisfies the input parameters. The **inspect** method inspects such array and provides several statistics, such as the actual pearson correlation coefficient, deviation, mean and extent. The only dependency is **d3-array** which could easily be factored away in a future version.
 
-The module on **npm** [here](https://www.npmjs.com/package/array-correl), repo [here](https://github.com/boeric/array-correl)
+The module on **npm** [here](https://www.npmjs.com/package/array-correl)
+
+The Repo is [here](https://github.com/boeric/array-correl)
 
 Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
@@ -18,7 +20,9 @@ Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
 The **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
 
-The module on **npm** [here](https://www.npmjs.com/package/array-unsort), repo [here](https://github.com/boeric/array-unsort)
+The module on **npm** [here](https://www.npmjs.com/package/array-unsort)
+
+The Repo is [here](https://github.com/boeric/array-unsort)
 
 Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
@@ -30,9 +34,9 @@ In development mode, the webapp (served on `localhost:8080`) will reload after e
 
 Also, these cool new/newish javascript features are enabled: async/await, spread, generators, Map/Set, WeakMap/WeakSet, getters/setters and optional chaining (`?.`) – and work in legacy browsers! 
 
-Js Repo: [here](https://github.com/boeric/zero-config-modern-webapp)
+The Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp)
 
-React Repo: [here](https://github.com/boeric/zero-config-react-webapp)
+The React Repo is [here](https://github.com/boeric/zero-config-react-webapp)
 
 ## license-suspensions
 
@@ -46,7 +50,7 @@ The dataset is based on driver license suspensions from California DMV and East 
 
 See the project live [here](https://boeric.github.io/license-suspensions/)
 
-The repo [here](https://github.com/boeric/license-suspensions)
+The repo is [here](https://github.com/boeric/license-suspensions)
 
 ## dataset-insights
 
@@ -72,7 +76,7 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 See the project live [here](https://boeric.github.io/geo-buffer/)
 
-The repo [here](https://github.com/boeric/geo-buffer)
+The Repo is [here](https://github.com/boeric/geo-buffer)
 
 ## canvas-in-svg
 
@@ -86,7 +90,7 @@ The app is using the **array-correl** npm module referenced at the top
 
 See the project live [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
-The Repo [here](https://github.com/boeric/canvas-in-svg)
+The Repo is [here](https://github.com/boeric/canvas-in-svg)
 
 ## d3-blocks
 
@@ -106,7 +110,7 @@ The overlay window shows the currently visible images in **yellow** and the imag
 
 See the project live [here](http://demo.boe.net:8080/)
 
-The Repo [here](https://github.com/boeric/infinite-scroll)
+The Repo is [here](https://github.com/boeric/infinite-scroll)
 
 ## traffic-fines
 
@@ -116,7 +120,7 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/) (please scroll down to the map)
 
-The Repo [here](https://github.com/boeric/traffic-fines)
+The Repo is [here](https://github.com/boeric/traffic-fines)
 
 ## network-viz
 
@@ -166,7 +170,7 @@ The event manager **eventhub.js** upon init, first checks for Websockets support
 
 Run the **client** web app [in a separate window](http://demo.boe.net:5000/). Then run the **analytics** web app [in another separate window](http://demo.boe.net:5000/analytics). Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
 
-Repo [here](https://github.com/boeric/event-hub)
+the Repo is [here](https://github.com/boeric/event-hub)
 
 ## sensor-vue
 
@@ -211,7 +215,7 @@ The **real-time-chart-multi** project is a resuable Javascript component that ac
 
 See the project live [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
 
-Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
+The Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
 
 ## vertex-generator
 
@@ -225,7 +229,7 @@ To use, create vertexes in the map by clicking. Then click the **Get GEOJson** b
 
 See the project live [here](https://boeric.github.io/vertex-generator/)
 
-Repo [here](https://github.com/boeric/vertex-generator)
+The Repo is [here](https://github.com/boeric/vertex-generator)
 
 ## stepper
 
