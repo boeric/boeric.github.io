@@ -44,7 +44,9 @@ The project was made for the **East Bay Community Law Center**'s ["Back on the R
 
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative [here](https://ebclc.org/backontheroad/problem/)
 
-See the project live [here](https://boeric.github.io/license-suspensions/), repo [here](https://github.com/boeric/license-suspensions)
+See the project live [here](https://boeric.github.io/license-suspensions/)
+
+The repo [here](https://github.com/boeric/license-suspensions)
 
 ## dataset-insights
 
@@ -68,7 +70,9 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 **Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
-See the project live [here](https://boeric.github.io/geo-buffer/), repo [here](https://github.com/boeric/geo-buffer)
+See the project live [here](https://boeric.github.io/geo-buffer/)
+
+The repo [here](https://github.com/boeric/geo-buffer)
 
 ## canvas-in-svg
 
@@ -80,7 +84,9 @@ In this implementation, up to 50,000 items can be generated and visualized in th
 
 The app is using the **array-correl** npm module referenced at the top
 
-See the project live [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4), repo [here](https://github.com/boeric/canvas-in-svg)
+See the project live [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
+
+The Repo [here](https://github.com/boeric/canvas-in-svg)
 
 ## d3-blocks
 
@@ -98,7 +104,9 @@ The overlay window shows the currently visible images in **yellow** and the imag
 
 <img src="https://user-images.githubusercontent.com/4840824/84854463-91328e00-b016-11ea-8c1d-9690615566b8.png" width="400"/>
 
-See the project live [here](http://demo.boe.net:8080/), repo [here](https://github.com/boeric/infinite-scroll)
+See the project live [here](http://demo.boe.net:8080/)
+
+The Repo [here](https://github.com/boeric/infinite-scroll)
 
 ## traffic-fines
 
@@ -106,7 +114,9 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 <img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
-See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/) (please scroll down to the map), repo [here](https://github.com/boeric/traffic-fines)
+See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/) (please scroll down to the map)
+
+The Repo [here](https://github.com/boeric/traffic-fines)
 
 ## network-viz
 
@@ -227,7 +237,7 @@ A simple React component that allows an end-user to step thorough a sequence of 
 
 See the project live [here](http://demo.boe.net:7800/)
 
-Repo is [here](https://github.com/boeric/stepper)
+The Repo is [here](https://github.com/boeric/stepper)
 
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
