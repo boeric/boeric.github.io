@@ -231,18 +231,6 @@ See the project live [here](https://boeric.github.io/vertex-generator/)
 
 The Repo is [here](https://github.com/boeric/vertex-generator)
 
-## stepper
-
-A simple React component that allows an end-user to step thorough a sequence of pages (for example when filling out a questionnaire). The operation of the Stepper is driven by the data structure that the parent component provides. The project uses React Portals.
-
-<img width="624" alt="Page1" src="https://user-images.githubusercontent.com/4840824/87597180-325c4500-c6a6-11ea-960a-4cc944971558.png">
-
-<img width="624" alt="Page4" src="https://user-images.githubusercontent.com/4840824/87597225-49029c00-c6a6-11ea-98d3-e181555a5670.png">
-
-See the project live [here](http://demo.boe.net:7800/)
-
-The Repo is [here](https://github.com/boeric/stepper)
-
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
 [build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
