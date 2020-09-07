@@ -62,7 +62,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84852452-bd97db80-b011-11ea-8871-55dcb2ad689f.png" width="600"/>
 
-See the project live [here](http://demo.boe.net:7000/)
+See the project live [here](http://demo.boe.net/data-properties/)
 
 Repo not yet published
 
@@ -74,7 +74,7 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 **Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
-See the project live [here](https://boeric.github.io/geo-buffer/)
+See the project live [here](http://demo.boe.net/geo-buffer/)
 
 The Repo is [here](https://github.com/boeric/geo-buffer)
 
@@ -88,7 +88,7 @@ In this implementation, up to 50,000 items can be generated and visualized in th
 
 The app is using the **array-correl** npm module referenced at the top
 
-See the project live [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
+See the project live [here](http://demo.boe.net/canvas-in-svg/)
 
 The Repo is [here](https://github.com/boeric/canvas-in-svg)
 
@@ -128,7 +128,7 @@ Network visualization of a simulated **compute infrastructure** with some 400 no
 
 <img src="https://user-images.githubusercontent.com/4840824/85204342-ba7a4500-b2c8-11ea-80dc-92283cf93989.png" width="700"/>
 
-See the project live [here](http://demo.boe.net:8000)
+See the project live [here](http://demo.boe.net/network-viz/)
 
 How to use: 
 - Hover over a node to see the node details
@@ -147,7 +147,7 @@ Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertic
 
 <img src="https://user-images.githubusercontent.com/4840824/85961605-66263380-b960-11ea-8f86-e06571dc6f7b.png" width="700"/>
 
-See the project live [here](http://demo.boe.net:7400)
+See the project live [here](http://demo.boe.net/point-cloud/)
 
 Repo not yet published
 
@@ -168,7 +168,7 @@ The **Client**, more specifically the **eventhub** is the most interesting piece
 
 The event manager **eventhub.js** upon init, first checks for Websockets support (and terminates if no such support is available). It then attempts to establish communication with the **server** over Websockets and sets an event handler for incoming Websockets messages. It then adds the **eventhub** function to the **window** object, making it available to all scripts running in the browser.
 
-Run the **client** web app [in a separate window](http://demo.boe.net:5000/). Then run the **analytics** web app [in another separate window](http://demo.boe.net:5000/analytics). Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
+Run the **client** web app [in a separate window](http://demo.boe.net/event-hub/index.html). Then run the **analytics** web app [in another separate window](http://demo.boe.net/event-hub/analytics.html). Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
 
 The Repo is [here](https://github.com/boeric/event-hub)
 
