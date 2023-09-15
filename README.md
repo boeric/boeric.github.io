@@ -1,4 +1,3 @@
-## Bo Ericsson Demos
 <img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="200"/>
 
 ## Ok - array-correl
