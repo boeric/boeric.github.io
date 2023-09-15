@@ -8,7 +8,7 @@
 
 The **npm** module generates an array of arbitrary size of pairs of numbers with a specified correlation. It also allows inspection of such array to determine the **pearson** correlation coefficient of the array's value pairs. The **generate** method takes the input count (array length), desired correlation, mean and deviation, and from this generates an array of numeric pairs that satisfies the input parameters. The **inspect** method inspects such array and provides several statistics, such as the actual pearson correlation coefficient, deviation, mean and extent. The only dependency is **d3-array** which could easily be factored away in a future version.
 
-The module on **npm** [here](https://www.npmjs.com/package/array-correl)
+The module on **npm** [here](https://www.npmjs.com/package/array-correl){:target="_blank"}
 
 The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
 
