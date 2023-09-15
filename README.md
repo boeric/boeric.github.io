@@ -211,7 +211,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 **Please note**: Login is required to see sensor status. However, in the debugger you can view the **realtime sensor data streaming over websockets**. 
 
-See the project live [here](http://www.sensorvue.com)
+See the project live [here](http://www.sensorvue.com){:target="_blank"}
 
 TODO: Publish repo
 
@@ -221,9 +221,9 @@ The **real-time-chart-multi** project is a resuable Javascript component that ac
 
 <img src="https://user-images.githubusercontent.com/4840824/84856371-5c750580-b01b-11ea-88bc-f40714b1d5c9.png" width="600"/>
 
-See the project live [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
+See the project live [here](http://boeric.github.io/d3RealTimeChartMulti/){:target="_blank"}. **Please wait for 30 sec** to see events from the 2nd data stream
 
-The Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
+The Repo is [here](https://github.com/boeric/d3RealTimeChartMulti){:target="_blank"}
 
 ## vertex-generator
 
