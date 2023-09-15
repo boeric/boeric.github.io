@@ -112,7 +112,9 @@ The overlay window shows the currently visible images in **yellow** and the imag
 
 <img src="https://user-images.githubusercontent.com/4840824/84854463-91328e00-b016-11ea-8c1d-9690615566b8.png" width="400"/>
 
-See the project live [here](http://demo.boe.net:8080/)
+TODO: Live demo
+<!-- See the project live [here](http://demo.boe.net:8080/) -->
+See the project live [here](http://demo.boe.net/infinite-scroll/){:target="_blank"}
 
 The Repo is [here](https://github.com/boeric/infinite-scroll){:target="_blank"}
 
@@ -122,11 +124,12 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 <img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
+TODO: Live demo
 <!-- See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/){:target="_blank"} (please scroll down to the map) -->
 
 The Repo is [here](https://github.com/boeric/traffic-fines){:target="_blank"}
 
-## TODO: review the sources - network-viz
+## network-viz
 
 Network visualization of a simulated **compute infrastructure** with some 400 nodes/links in 3d using the **3d-force-graph** npm module. As can be seen from the viz, some segments are disconnected from core infrastructure. The viz provides insights into the topology of a network that would be difficult to obtain through any other means. 
 
@@ -145,7 +148,7 @@ How to use:
 
 Repo not yet published
 
-## TODO: review the sources - point-cloud-deck-gl
+## point-cloud-deck-gl
 
 Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertices are rendered above the map. The user can zoom in/out, rotate the map and change the pitch angle with the keyboard. 
 
@@ -155,9 +158,9 @@ See the project live [here](http://demo.boe.net/point-cloud/){:target="_blank"}
 
 Repo not yet published
 
-## TODO: describe better - event-hub
+## event-hub
 
-The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: 
+The event-hub project demonstrates how to create a real-time front-end event dispatcher and event aggregator server-side using websockets. The system is comprised of three main components: 
 - Server
 - Client web app
 - Analytics web app
