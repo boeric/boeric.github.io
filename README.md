@@ -9,7 +9,7 @@ The **npm** module generates an array of arbitrary size of pairs of numbers with
 
 The module on **npm** [here](https://www.npmjs.com/package/array-correl)
 
-The Repo is [here](https://github.com/boeric/array-correl)
+The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
 
 Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
@@ -20,9 +20,9 @@ Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
 The **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
 
-The module on **npm** [here](https://www.npmjs.com/package/array-unsort)
+The module on **npm** [here](https://www.npmjs.com/package/array-unsort){:target="_blank"}
 
-The Repo is [here](https://github.com/boeric/array-unsort)
+The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"}
 
 Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
@@ -34,9 +34,9 @@ In development mode, the webapp (served on `localhost:8080`) will reload after e
 
 Also, these cool new/newish javascript features are enabled: async/await, spread, generators, Map/Set, WeakMap/WeakSet, getters/setters and optional chaining (`?.`) – and work in legacy browsers! 
 
-The Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp)
+The Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp){:target="_blank"}
 
-The React Repo is [here](https://github.com/boeric/zero-config-react-webapp)
+The React Repo is [here](https://github.com/boeric/zero-config-react-webapp){:target="_blank"}
 
 ## license-suspensions
 
@@ -48,9 +48,9 @@ The project was made for the **East Bay Community Law Center**'s ["Back on the R
 
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative [here](https://ebclc.org/backontheroad/problem/)
 
-See the project live [here](https://boeric.github.io/license-suspensions/)
+See the project live [here](https://boeric.github.io/license-suspensions/){:target="_blank"}
 
-The repo is [here](https://github.com/boeric/license-suspensions)
+The repo is [here](https://github.com/boeric/license-suspensions){:target="_blank"}
 
 ## dataset-insights
 
@@ -62,7 +62,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84852452-bd97db80-b011-11ea-8871-55dcb2ad689f.png" width="600"/>
 
-See the project live [here](http://demo.boe.net/data-properties/)
+See the project live [here](http://demo.boe.net/data-properties/){:target="_blank"}
 
 Repo not yet published
 
@@ -74,9 +74,9 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 **Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
-See the project live test [here](http://demo.boe.net/geo-buffer/){:target="_blank"}
+See the project live [here](http://demo.boe.net/geo-buffer/){:target="_blank"}
 
-The Repo is [here](https://github.com/boeric/geo-buffer)
+The Repo is [here](https://github.com/boeric/geo-buffer){:target="_blank"}
 
 ## canvas-in-svg
 
@@ -88,9 +88,9 @@ In this implementation, up to 50,000 items can be generated and visualized in th
 
 The app is using the **array-correl** npm module referenced at the top
 
-See the project live [here](http://demo.boe.net/canvas-in-svg/)
+See the project live [here](http://demo.boe.net/canvas-in-svg/){:target="_blank"}
 
-The Repo is [here](https://github.com/boeric/canvas-in-svg)
+The Repo is [here](https://github.com/boeric/canvas-in-svg){:target="_blank"}
 
 ## d3-blocks
 
@@ -110,7 +110,7 @@ The overlay window shows the currently visible images in **yellow** and the imag
 
 See the project live [here](http://demo.boe.net:8080/)
 
-The Repo is [here](https://github.com/boeric/infinite-scroll)
+The Repo is [here](https://github.com/boeric/infinite-scroll){:target="_blank"}
 
 ## traffic-fines
 
@@ -118,9 +118,9 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 <img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
-See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/) (please scroll down to the map)
+See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/){:target="_blank"} (please scroll down to the map)
 
-The Repo is [here](https://github.com/boeric/traffic-fines)
+The Repo is [here](https://github.com/boeric/traffic-fines){:target="_blank"}
 
 ## network-viz
 
@@ -128,7 +128,7 @@ Network visualization of a simulated **compute infrastructure** with some 400 no
 
 <img src="https://user-images.githubusercontent.com/4840824/85204342-ba7a4500-b2c8-11ea-80dc-92283cf93989.png" width="700"/>
 
-See the project live [here](http://demo.boe.net/network-viz/)
+See the project live [here](http://demo.boe.net/network-viz/){:target="_blank"}
 
 How to use: 
 - Hover over a node to see the node details
@@ -147,7 +147,7 @@ Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertic
 
 <img src="https://user-images.githubusercontent.com/4840824/85961605-66263380-b960-11ea-8f86-e06571dc6f7b.png" width="700"/>
 
-See the project live [here](http://demo.boe.net/point-cloud/)
+See the project live [here](http://demo.boe.net/point-cloud/){:target="_blank"}
 
 Repo not yet published
 
@@ -168,9 +168,9 @@ The **Client**, more specifically the **eventhub** is the most interesting piece
 
 The event manager **eventhub.js** upon init, first checks for Websockets support (and terminates if no such support is available). It then attempts to establish communication with the **server** over Websockets and sets an event handler for incoming Websockets messages. It then adds the **eventhub** function to the **window** object, making it available to all scripts running in the browser.
 
-Run the **client** web app [in a separate window](http://demo.boe.net/event-hub/index.html). Then run the **analytics** web app [in another separate window](http://demo.boe.net/event-hub/analytics.html). Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
+Run the **client** web app [in a separate window](http://demo.boe.net/event-hub/index.html){:target="_blank"}. Then run the **analytics** web app [in another separate window](http://demo.boe.net/event-hub/analytics.html){:target="_blank"}. Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
 
-The Repo is [here](https://github.com/boeric/event-hub)
+The Repo is [here](https://github.com/boeric/event-hub){:target="_blank"}
 
 ## sensor-vue
 
@@ -227,9 +227,9 @@ The geo locations and speed information can be used by a post processing tool to
 
 To use, create vertexes in the map by clicking. Then click the **Get GEOJson** button, and copy the just-created GEOJson structure to the clipboard. Then drop it into for example [GeoJSONLint](https://geojsonlint.com/), to verify the integrity of the structure.
 
-See the project live [here](https://boeric.github.io/vertex-generator/)
+See the project live [here](https://boeric.github.io/vertex-generator/){:target="_blank"}
 
-The Repo is [here](https://github.com/boeric/vertex-generator)
+The Repo is [here](https://github.com/boeric/vertex-generator){:target="_blank"}
 
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
