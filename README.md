@@ -7,11 +7,11 @@
 
 The **npm** module generates an array of arbitrary size of pairs of numbers with a specified correlation. It also allows inspection of such array to determine the **pearson** correlation coefficient of the array's value pairs. The **generate** method takes the input count (array length), desired correlation, mean and deviation, and from this generates an array of numeric pairs that satisfies the input parameters. The **inspect** method inspects such array and provides several statistics, such as the actual pearson correlation coefficient, deviation, mean and extent. The only dependency is **d3-array** which could easily be factored away in a future version.
 
-The module on **npm** [here](https://www.npmjs.com/package/array-correl)
+Ok - The module on **npm** [here](https://www.npmjs.com/package/array-correl)
 
-The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
+Ok - The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
 
-Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
+Deleted block - Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
 ## array-unsort
 
@@ -20,13 +20,13 @@ Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
 The **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
 
-The module on **npm** [here](https://www.npmjs.com/package/array-unsort){:target="_blank"}
+Ok - The module on **npm** [here](https://www.npmjs.com/package/array-unsort){:target="_blank"}
 
-The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"}
+Ok - The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"}
 
-Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
+Deleted block - Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
-## zero-config-modern-webapp / zero-config-react-webapp (brand new)
+## zero-config-react-webapp / zero-config-modern-webapp 
 
 Zero-config modern **Js** front-end or **React** web app templates, with Webpack (bundler), Babel (compiler), Eslint/Airbnb (strict code style linting), Jest (unit tests), and D3 (data visualization) – all **pre-configured** and ready to go. You just add your code! 
 
@@ -34,9 +34,13 @@ In development mode, the webapp (served on `localhost:8080`) will reload after e
 
 Also, these cool new/newish javascript features are enabled: async/await, spread, generators, Map/Set, WeakMap/WeakSet, getters/setters and optional chaining (`?.`) – and work in legacy browsers! 
 
-The Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp){:target="_blank"}
-
 The React Repo is [here](https://github.com/boeric/zero-config-react-webapp){:target="_blank"}
+
+!!! Demo with production server is here...
+
+!!! Get screenshot into this file
+
+The Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp){:target="_blank"}
 
 ## license-suspensions
 
@@ -48,9 +52,9 @@ The project was made for the **East Bay Community Law Center**'s ["Back on the R
 
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative [here](https://ebclc.org/backontheroad/problem/)
 
-See the project live [here](https://boeric.github.io/license-suspensions/){:target="_blank"}
+Ok - See the project live [here](https://boeric.github.io/license-suspensions/){:target="_blank"}
 
-The repo is [here](https://github.com/boeric/license-suspensions){:target="_blank"}
+Ok - The repo is [here](https://github.com/boeric/license-suspensions){:target="_blank"}
 
 ## dataset-insights
 
@@ -62,7 +66,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84852452-bd97db80-b011-11ea-8871-55dcb2ad689f.png" width="600"/>
 
-See the project live [here](http://demo.boe.net/data-properties/){:target="_blank"}
+Ok - See the project live [here](http://demo.boe.net/data-properties/){:target="_blank"}
 
 Repo not yet published
 
@@ -74,9 +78,9 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 **Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
-See the project live [here](http://demo.boe.net/geo-buffer/){:target="_blank"}
+Ok - See the project live [here](http://demo.boe.net/geo-buffer/){:target="_blank"}
 
-The Repo is [here](https://github.com/boeric/geo-buffer){:target="_blank"}
+Ok - The Repo is [here](https://github.com/boeric/geo-buffer){:target="_blank"}
 
 ## canvas-in-svg
 
@@ -92,15 +96,15 @@ See the project live [here](http://demo.boe.net/canvas-in-svg/){:target="_blank"
 
 The Repo is [here](https://github.com/boeric/canvas-in-svg){:target="_blank"}
 
-## d3-blocks
+## Smaller D3 data viz demos
 
 A variety of smaller projects, most of them using **D3**
 
 <img src="https://user-images.githubusercontent.com/4840824/84855197-621d1c00-b018-11ea-9537-3356a878b35a.png" width="600"/>
 
-See the Blocks [here](https://bl.ocks.org/boeric)
+See the Blocks [here](https://blocks.roadtolarissa.com/boeric)
 
-## infinite-scroll
+## TODO: make work at demo.boe.net - infinite-scroll
 
 **React app** demo of inifite scroll of images from the **cat.api** where only a finite number of images are kept in the browser. The project demonstrates loading resources **on-demand** during scrolling actions while keeping the browser **memory requirement** low. It also demonstrates how to keep the images in a **stable** position as the user is scrolling up/down using an API that provides **random** images.
 
@@ -118,11 +122,11 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 <img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
-See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/){:target="_blank"} (please scroll down to the map)
+<!-- See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/){:target="_blank"} (please scroll down to the map) -->
 
 The Repo is [here](https://github.com/boeric/traffic-fines){:target="_blank"}
 
-## network-viz
+## TODO: review the sources - network-viz
 
 Network visualization of a simulated **compute infrastructure** with some 400 nodes/links in 3d using the **3d-force-graph** npm module. As can be seen from the viz, some segments are disconnected from core infrastructure. The viz provides insights into the topology of a network that would be difficult to obtain through any other means. 
 
@@ -141,7 +145,7 @@ How to use:
 
 Repo not yet published
 
-## point-cloud-deck-gl
+## TODO: review the sources - point-cloud-deck-gl
 
 Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertices are rendered above the map. The user can zoom in/out, rotate the map and change the pitch angle with the keyboard. 
 
@@ -151,7 +155,7 @@ See the project live [here](http://demo.boe.net/point-cloud/){:target="_blank"}
 
 Repo not yet published
 
-## event-hub
+## TODO: describe better - event-hub
 
 The event-hub project demonstrates how to create a central event dispatcher in a web application. The system is comprised of three main components: 
 - Server
@@ -240,3 +244,9 @@ The Repo is [here](https://github.com/boeric/vertex-generator){:target="_blank"}
 [npm-url-array-correl]: https://npmjs.org/package/array-correl
 [build-size-img-array-correl]: https://img.shields.io/bundlephobia/minzip/array-correl.svg
 [build-size-url-array-correl]: https://bundlephobia.com/result?p=array-correl
+
+
+https://avatars.githubusercontent.com/u/4840824?v=4
+
+<img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="600"/>
+
