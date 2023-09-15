@@ -1,7 +1,7 @@
 # Bo Ericsson Demos
 <img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="200"/>
 
-## NPM Repo `array-correl`
+## NPM Repo array-correl
 
 [![NPM package][npm-img-array-correl]][npm-url-array-correl]
 [![Build Size][build-size-img-array-correl]][build-size-url-array-correl]
@@ -14,7 +14,7 @@ The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
 
 Demo [here](https://blocks.roadtolarissa.com/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
-## NPM Repo `array-unsort`
+## NPM Repo array-unsort
 
 [![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
 [![Build Size][build-size-img-array-unsort]][build-size-url-array-unsort]
