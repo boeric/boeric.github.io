@@ -1,4 +1,5 @@
-## Demos
+## Bo Ericsson Demos
+<img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="200"/>
 
 ## array-correl
 
@@ -248,5 +249,5 @@ The Repo is [here](https://github.com/boeric/vertex-generator){:target="_blank"}
 
 https://avatars.githubusercontent.com/u/4840824?v=4
 
-<img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="600"/>
+
 
