@@ -37,7 +37,7 @@ Also, these cool new/newish javascript features are enabled: async/await, spread
 
 The React Repo is [here](https://github.com/boeric/zero-config-react-webapp){:target="_blank"}
 
-TODO: Provide live demo using the repo's Production Server component 
+TODO: Provide live demo using the repo's production server component 
 
 <img width="600" alt="Zero Config React Template" src="https://github.com/boeric/zero-config-react-webapp/assets/4840824/c091c81a-ec10-43f5-a53d-0a1697472776">
 
