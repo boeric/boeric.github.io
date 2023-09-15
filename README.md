@@ -105,7 +105,7 @@ A variety of smaller projects, most of them using **D3**
 
 See the Blocks [here](https://blocks.roadtolarissa.com/boeric)
 
-## TODO: make work at demo.boe.net - infinite-scroll
+## infinite-scroll
 
 **React app** demo of inifite scroll of images from the **cat.api** where only a finite number of images are kept in the browser. The project demonstrates loading resources **on-demand** during scrolling actions while keeping the browser **memory requirement** low. It also demonstrates how to keep the images in a **stable** position as the user is scrolling up/down using an API that provides **random** images.
 
@@ -113,9 +113,9 @@ The overlay window shows the currently visible images in **yellow** and the imag
 
 <img src="https://user-images.githubusercontent.com/4840824/84854463-91328e00-b016-11ea-8c1d-9690615566b8.png" width="400"/>
 
-TODO: Live demo
+**TODO:** Provide live demo
 <!-- See the project live [here](http://demo.boe.net:8080/) -->
-See the project live [here](http://demo.boe.net/infinite-scroll/public/index.html){:target="_blank"}
+<!-- See the project live [here](http://demo.boe.net/infinite-scroll/public/){:target="_blank"} -->
 
 The Repo is [here](https://github.com/boeric/infinite-scroll){:target="_blank"}
 
@@ -125,7 +125,7 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 <img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
-TODO: Provide live demo
+**TODO:** Provide live demo
 <!-- See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/){:target="_blank"} (please scroll down to the map) -->
 
 The Repo is [here](https://github.com/boeric/traffic-fines){:target="_blank"}
@@ -147,7 +147,7 @@ How to use:
 - To rotate, drag with the left mouse button down
 - To pan, drag with the right mouse button down
 
-TOOD: Publish repo
+**TOOD:** Publish repo, provide live demo
 
 ## point-cloud-deck-gl
 
@@ -157,7 +157,7 @@ Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertic
 
 See the project live [here](http://demo.boe.net/point-cloud/){:target="_blank"}
 
-TODO: Publish repo
+**TODO:** Publish repo
 
 ## event-hub
 
@@ -213,7 +213,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 See the project live [here](http://www.sensorvue.com)
 
-TODO: Publish repo
+**TODO:** Publish repo
 
 ## real-time-chart-multi
 
