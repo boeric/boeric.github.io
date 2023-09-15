@@ -74,7 +74,7 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 **Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
-See the project live [here](http://demo.boe.net/geo-buffer/)
+See the project live [here](http://demo.boe.net/geo-buffer/){:target="_blank"}
 
 The Repo is [here](https://github.com/boeric/geo-buffer)
 
