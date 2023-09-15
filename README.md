@@ -26,9 +26,9 @@ Ok - The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"
 
 Deleted block - Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
-## Screenshot missing - zero-config-react-webapp / zero-config-modern-webapp 
+## zero-config-react-webapp / zero-config-modern-webapp 
 
-Zero-config modern **Js** front-end or **React** web app templates, with Webpack (bundler), Babel (compiler), Eslint/Airbnb (strict code style linting), Jest (unit tests), and D3 (data visualization) – all **pre-configured** and ready to go. You just add your code! 
+Zero-config modern **React** and **Js** front-end web app templates, with Webpack (bundler), Babel (compiler), Eslint/Airbnb (strict code style linting), Jest (unit tests), and D3 (data visualization) – all **pre-configured** and ready to go. You just add your code! 
 
 In development mode, the webapp (served on `localhost:8080`) will reload after each file save.
 
@@ -36,11 +36,11 @@ Also, these cool new/newish javascript features are enabled: async/await, spread
 
 The React Repo is [here](https://github.com/boeric/zero-config-react-webapp){:target="_blank"}
 
-!!! Demo with production server is here...
+TODO: Configure production server
 
-!!! Get screenshot into this file
+<img width="600" alt="Zero Config React Template" src="https://github.com/boeric/zero-config-react-webapp/assets/4840824/c091c81a-ec10-43f5-a53d-0a1697472776">
 
-The Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp){:target="_blank"}
+The Basic Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp){:target="_blank"}
 
 ## Ok - license-suspensions
 
