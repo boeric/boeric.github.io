@@ -8,11 +8,11 @@
 
 The **npm** module generates an array of arbitrary size of pairs of numbers with a specified correlation. It also allows inspection of such array to determine the **pearson** correlation coefficient of the array's value pairs. The **generate** method takes the input count (array length), desired correlation, mean and deviation, and from this generates an array of numeric pairs that satisfies the input parameters. The **inspect** method inspects such array and provides several statistics, such as the actual pearson correlation coefficient, deviation, mean and extent. The only dependency is **d3-array** which could easily be factored away in a future version.
 
-Ok - The module on **npm** [here](https://www.npmjs.com/package/array-correl)
+The module on **npm** [here](https://www.npmjs.com/package/array-correl)
 
-Ok - The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
+The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
 
-Deleted block - Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
+Demo [here](https://blocks.roadtolarissa.com/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
 ## NPM Repo `array-unsort`
 
@@ -21,11 +21,11 @@ Deleted block - Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8
 
 The **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
 
-Ok - The module on **npm** [here](https://www.npmjs.com/package/array-unsort){:target="_blank"}
+The module on **npm** [here](https://www.npmjs.com/package/array-unsort){:target="_blank"}
 
-Ok - The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"}
+The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"}
 
-Deleted block - Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
+Demo [here](https://blocks.roadtolarissa.com/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
 ## zero-config-react-webapp / zero-config-modern-webapp 
 
@@ -43,7 +43,7 @@ TODO: Configure production server
 
 The Basic Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp){:target="_blank"}
 
-## Ok - license-suspensions
+## license-suspensions
 
 The visualization demonstrates how to syncronize the state of two side-by-side **MapboxGL**-based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
 
@@ -53,11 +53,11 @@ The project was made for the **East Bay Community Law Center**'s ["Back on the R
 
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative [here](https://ebclc.org/backontheroad/problem/)
 
-Ok - See the project live [here](https://boeric.github.io/license-suspensions/){:target="_blank"}
+See the project live [here](https://boeric.github.io/license-suspensions/){:target="_blank"}
 
-Ok - The repo is [here](https://github.com/boeric/license-suspensions){:target="_blank"}
+The repo is [here](https://github.com/boeric/license-suspensions){:target="_blank"}
 
-## Ok - dataset-insights
+## dataset-insights
 
 The objective with this project is to provide **near-instanteous insights** of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
 
@@ -67,11 +67,11 @@ Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84852452-bd97db80-b011-11ea-8871-55dcb2ad689f.png" width="600"/>
 
-Ok - See the project live [here](http://demo.boe.net/data-properties/){:target="_blank"}
+See the project live [here](http://demo.boe.net/data-properties/){:target="_blank"}
 
 Repo not yet published
 
-## Ok - geo-buffer
+## geo-buffer
 
 Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygons, in this case parks in San Francisco. It is using **MapboxGL** and **Turf**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. 
 
@@ -79,9 +79,9 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 **Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
-Ok - See the project live [here](http://demo.boe.net/geo-buffer/){:target="_blank"}
+See the project live [here](http://demo.boe.net/geo-buffer/){:target="_blank"}
 
-Ok - The Repo is [here](https://github.com/boeric/geo-buffer){:target="_blank"}
+The Repo is [here](https://github.com/boeric/geo-buffer){:target="_blank"}
 
 ## canvas-in-svg
 
@@ -125,7 +125,7 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 <img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
-TODO: Live demo
+TODO: Provide live demo
 <!-- See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/){:target="_blank"} (please scroll down to the map) -->
 
 The Repo is [here](https://github.com/boeric/traffic-fines){:target="_blank"}
@@ -147,7 +147,7 @@ How to use:
 - To rotate, drag with the left mouse button down
 - To pan, drag with the right mouse button down
 
-Repo not yet published
+TOOD: Publish repo
 
 ## point-cloud-deck-gl
 
@@ -157,7 +157,7 @@ Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertic
 
 See the project live [here](http://demo.boe.net/point-cloud/){:target="_blank"}
 
-Repo not yet published
+TODO: Publish repo
 
 ## event-hub
 
@@ -213,7 +213,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 See the project live [here](http://www.sensorvue.com)
 
-Repo not yet published
+TODO: Publish repo
 
 ## real-time-chart-multi
 
@@ -248,9 +248,3 @@ The Repo is [here](https://github.com/boeric/vertex-generator){:target="_blank"}
 [npm-url-array-correl]: https://npmjs.org/package/array-correl
 [build-size-img-array-correl]: https://img.shields.io/bundlephobia/minzip/array-correl.svg
 [build-size-url-array-correl]: https://bundlephobia.com/result?p=array-correl
-
-
-https://avatars.githubusercontent.com/u/4840824?v=4
-
-
-
