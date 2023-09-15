@@ -1,4 +1,4 @@
-# Bo Ericsson Demos
+<!-- # Bo Ericsson Demos -->
 <img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="200"/>
 
 ## NPM Repo array-correl
@@ -37,7 +37,7 @@ Also, these cool new/newish javascript features are enabled: async/await, spread
 
 The React Repo is [here](https://github.com/boeric/zero-config-react-webapp){:target="_blank"}
 
-**TODO:** Provide live demo using the repo's Production Server component 
+TODO: Provide live demo using the repo's Production Server component 
 
 <img width="600" alt="Zero Config React Template" src="https://github.com/boeric/zero-config-react-webapp/assets/4840824/c091c81a-ec10-43f5-a53d-0a1697472776">
 
@@ -69,7 +69,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 See the project live [here](http://demo.boe.net/data-properties/){:target="_blank"}
 
-**TODO:** Publish the repo
+TODO: Publish the repo
 
 ## geo-buffer
 
@@ -113,7 +113,7 @@ The overlay window shows the currently visible images in **yellow** and the imag
 
 <img src="https://user-images.githubusercontent.com/4840824/84854463-91328e00-b016-11ea-8c1d-9690615566b8.png" width="400"/>
 
-**TODO:** Provide live demo
+TODO: Provide live demo using the production server
 <!-- See the project live [here](http://demo.boe.net:8080/) -->
 <!-- See the project live [here](http://demo.boe.net/infinite-scroll/public/){:target="_blank"} -->
 
@@ -125,7 +125,7 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 
 <img src="https://user-images.githubusercontent.com/4840824/84853807-dd7cce80-b014-11ea-9a7f-a7bb764ade79.png" width="600"/>
 
-**TODO:** Provide live demo
+TODO: Provide live demo
 <!-- See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/){:target="_blank"} (please scroll down to the map) -->
 
 The Repo is [here](https://github.com/boeric/traffic-fines){:target="_blank"}
@@ -147,7 +147,7 @@ How to use:
 - To rotate, drag with the left mouse button down
 - To pan, drag with the right mouse button down
 
-**TOOD:** Publish repo, provide live demo
+TOOD: Publish repo, provide live demo
 
 ## point-cloud-deck-gl
 
@@ -157,7 +157,7 @@ Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertic
 
 See the project live [here](http://demo.boe.net/point-cloud/){:target="_blank"}
 
-**TODO:** Publish repo
+TODO: Publish repo
 
 ## event-hub
 
@@ -213,7 +213,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 See the project live [here](http://www.sensorvue.com)
 
-**TODO:** Publish repo
+TODO: Publish repo
 
 ## real-time-chart-multi
 
@@ -239,6 +239,7 @@ See the project live [here](https://boeric.github.io/vertex-generator/){:target=
 
 The Repo is [here](https://github.com/boeric/vertex-generator){:target="_blank"}
 
+<!--
 [npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
 [npm-url-array-unsort]: https://npmjs.org/package/array-unsort
 [build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
@@ -248,3 +249,4 @@ The Repo is [here](https://github.com/boeric/vertex-generator){:target="_blank"}
 [npm-url-array-correl]: https://npmjs.org/package/array-correl
 [build-size-img-array-correl]: https://img.shields.io/bundlephobia/minzip/array-correl.svg
 [build-size-url-array-correl]: https://bundlephobia.com/result?p=array-correl
+-->
