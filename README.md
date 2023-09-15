@@ -1,7 +1,7 @@
 ## Bo Ericsson Demos
 <img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="200"/>
 
-## array-correl
+## Ok - array-correl
 
 [![NPM package][npm-img-array-correl]][npm-url-array-correl]
 [![Build Size][build-size-img-array-correl]][build-size-url-array-correl]
@@ -14,7 +14,7 @@ Ok - The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"
 
 Deleted block - Cool demo [here](https://bl.ocks.org/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
-## array-unsort
+## Ok - array-unsort
 
 [![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
 [![Build Size][build-size-img-array-unsort]][build-size-url-array-unsort]
@@ -27,7 +27,7 @@ Ok - The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"
 
 Deleted block - Demo [here](https://bl.ocks.org/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
-## zero-config-react-webapp / zero-config-modern-webapp 
+## Screenshot missing - zero-config-react-webapp / zero-config-modern-webapp 
 
 Zero-config modern **Js** front-end or **React** web app templates, with Webpack (bundler), Babel (compiler), Eslint/Airbnb (strict code style linting), Jest (unit tests), and D3 (data visualization) – all **pre-configured** and ready to go. You just add your code! 
 
@@ -43,7 +43,7 @@ The React Repo is [here](https://github.com/boeric/zero-config-react-webapp){:ta
 
 The Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp){:target="_blank"}
 
-## license-suspensions
+## Ok - license-suspensions
 
 The visualization demonstrates how to syncronize the state of two side-by-side **MapboxGL**-based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
 
@@ -57,7 +57,7 @@ Ok - See the project live [here](https://boeric.github.io/license-suspensions/){
 
 Ok - The repo is [here](https://github.com/boeric/license-suspensions){:target="_blank"}
 
-## dataset-insights
+## Ok - dataset-insights
 
 The objective with this project is to provide **near-instanteous insights** of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
 
@@ -71,7 +71,7 @@ Ok - See the project live [here](http://demo.boe.net/data-properties/){:target="
 
 Repo not yet published
 
-## geo-buffer
+## Ok - geo-buffer
 
 Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygons, in this case parks in San Francisco. It is using **MapboxGL** and **Turf**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. 
 
