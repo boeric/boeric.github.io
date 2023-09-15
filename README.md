@@ -12,7 +12,7 @@ The module on **npm** [here](https://www.npmjs.com/package/array-correl)
 
 The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
 
-Demo [here](https://blocks.roadtolarissa.com/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
+Demo is [here](https://blocks.roadtolarissa.com/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
 ## NPM Repo array-unsort
 
@@ -25,7 +25,7 @@ The module on **npm** [here](https://www.npmjs.com/package/array-unsort){:target
 
 The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"}
 
-Demo [here](https://blocks.roadtolarissa.com/boeric/35eec347e240c6e41ebe04d85e28de9d)
+Demo is [here](https://blocks.roadtolarissa.com/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
 ## zero-config-react-webapp / zero-config-modern-webapp 
 
@@ -37,7 +37,7 @@ Also, these cool new/newish javascript features are enabled: async/await, spread
 
 The React Repo is [here](https://github.com/boeric/zero-config-react-webapp){:target="_blank"}
 
-TODO: Configure production server
+**TODO:** Provide live demo using the repo's Production Server component 
 
 <img width="600" alt="Zero Config React Template" src="https://github.com/boeric/zero-config-react-webapp/assets/4840824/c091c81a-ec10-43f5-a53d-0a1697472776">
 
@@ -69,7 +69,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 See the project live [here](http://demo.boe.net/data-properties/){:target="_blank"}
 
-Repo not yet published
+**TODO:** Publish the repo
 
 ## geo-buffer
 
@@ -95,7 +95,7 @@ The app is using the **array-correl** npm module referenced at the top
 
 See the project live [here](http://demo.boe.net/canvas-in-svg/){:target="_blank"}
 
-The Repo is [here](https://github.com/boeric/canvas-in-svg){:target="_blank"}
+The repo is [here](https://github.com/boeric/canvas-in-svg){:target="_blank"}
 
 ## Smaller D3 data viz demos
 
@@ -115,7 +115,7 @@ The overlay window shows the currently visible images in **yellow** and the imag
 
 TODO: Live demo
 <!-- See the project live [here](http://demo.boe.net:8080/) -->
-See the project live [here](http://demo.boe.net/infinite-scroll/){:target="_blank"}
+See the project live [here](http://demo.boe.net/infinite-scroll/public/index.html){:target="_blank"}
 
 The Repo is [here](https://github.com/boeric/infinite-scroll){:target="_blank"}
 
