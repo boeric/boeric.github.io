@@ -239,14 +239,12 @@ See the project live [here](https://boeric.github.io/vertex-generator/){:target=
 
 The Repo is [here](https://github.com/boeric/vertex-generator){:target="_blank"}
 
-<!--
-[npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
-[npm-url-array-unsort]: https://npmjs.org/package/array-unsort
-[build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
-[build-size-url-array-unsort]: https://bundlephobia.com/result?p=array-unsort
-
 [npm-img-array-correl]: https://img.shields.io/npm/v/array-correl.svg
 [npm-url-array-correl]: https://npmjs.org/package/array-correl
 [build-size-img-array-correl]: https://img.shields.io/bundlephobia/minzip/array-correl.svg
 [build-size-url-array-correl]: https://bundlephobia.com/result?p=array-correl
--->
+
+[npm-img-array-unsort]: https://img.shields.io/npm/v/array-unsort.svg
+[npm-url-array-unsort]: https://npmjs.org/package/array-unsort
+[build-size-img-array-unsort]: https://img.shields.io/bundlephobia/minzip/array-unsort.svg
+[build-size-url-array-unsort]: https://bundlephobia.com/result?p=array-unsort
