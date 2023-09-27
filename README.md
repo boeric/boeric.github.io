@@ -7,13 +7,14 @@
 [![NPM package][npm-img-array-correl]][npm-url-array-correl]
 [![Build Size][build-size-img-array-correl]][build-size-url-array-correl]
 
-The **npm** module generates an array of arbitrary size of pairs of numbers with a specified correlation. It also allows inspection of such array to determine the **pearson** correlation coefficient of the array's value pairs. The **generate** method takes the input count (array length), desired correlation, mean and deviation, and from this generates an array of numeric pairs that satisfies the input parameters. The **inspect** method inspects such array and provides several statistics, such as the actual pearson correlation coefficient, deviation, mean and extent. The only dependency is **d3-array** which could easily be factored away in a future version.
+This **npm** module generates an array (of arbitrary size) of pairs with numbers with a specified correlation. It also allows inspection of such array to determine the **pearson** correlation coefficient of the array's value pairs. The **generate** method takes the input count (array length), desired correlation, mean and deviation, and from this it generates an array of numeric pairs that satisfies the input parameters. The **inspect** method inspects such array and provides several statistics, such as the actual pearson correlation coefficient, deviation, mean and extent. The only dependency is **d3-array** which could easily be factored away in a future version.
 
 The module on **npm** [here](https://www.npmjs.com/package/array-correl)
 
 The Repo is [here](https://github.com/boeric/array-correl)
-
+<!---
 Demo is [here](https://blocks.roadtolarissa.com/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
+-->
 
 ---
 ## NPM module array-unsort
@@ -21,13 +22,14 @@ Demo is [here](https://blocks.roadtolarissa.com/boeric/aa80b0048b7e39dd71c8fbe95
 [![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
 [![Build Size][build-size-img-array-unsort]][build-size-url-array-unsort]
 
-The **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
+This **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
 
 The module on **npm** [here](https://www.npmjs.com/package/array-unsort)
 
 The Repo is [here](https://github.com/boeric/array-unsort)
-
+<!---
 Demo is [here](https://blocks.roadtolarissa.com/boeric/35eec347e240c6e41ebe04d85e28de9d)
+-->
 
 ---
 ## zero-config-react-webapp / zero-config-modern-webapp 
@@ -225,7 +227,7 @@ Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://github.com/boeric/boeric.github.io/assets/4840824/8c88306d-2d27-48bf-9d3a-ded20777fe0f" width="400"/>
 
-**Please note**: Login is required to see sensor status. However, in the debugger you can view the **realtime sensor data streaming over websockets**. 
+Please note: Login is required to see sensor status. When logged in, in the debugger you can view the realtime sensor data, streaming over websockets. 
 <!---
 (See the project live [here](http://www.sensorvue.com))
 -->
