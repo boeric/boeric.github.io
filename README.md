@@ -222,13 +222,15 @@ The system has been operational since 2017 and **no data packets have been lost*
 Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84548914-9a8cc500-acbb-11ea-8161-470bd1d5695c.png" width="700"/>
-<img width="600" alt="sensor-viz" src="https://github.com/boeric/sensor-viz/assets/4840824/d3aa2020-9d74-48b2-a1a9-ccb3865e5202">
+
+<img src="https://github.com/boeric/boeric.github.io/assets/4840824/8c88306d-2d27-48bf-9d3a-ded20777fe0f" width="400"/>
 
 **Please note**: Login is required to see sensor status. However, in the debugger you can view the **realtime sensor data streaming over websockets**. 
+<!---
+(See the project live [here](http://www.sensorvue.com))
+-->
 
-See the project live [here](http://www.sensorvue.com)
-
-TODO: Publish repo
+TODO: Publish repo, open server for public access
 
 ---
 ## real-time-chart-multi
