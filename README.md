@@ -1,8 +1,6 @@
 <!-- # Bo Ericsson Demos -->
 <img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="200"/>
 
-## NPM module array-correl
-
 [![NPM package][npm-img-array-correl]][npm-url-array-correl]
 [![Build Size][build-size-img-array-correl]][build-size-url-array-correl]
 
@@ -208,6 +206,7 @@ The system has been operational since 2017 and **no data packets have been lost*
 Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84548914-9a8cc500-acbb-11ea-8161-470bd1d5695c.png" width="700"/>
+<img width="600" alt="sensor-viz" src="https://github.com/boeric/sensor-viz/assets/4840824/d3aa2020-9d74-48b2-a1a9-ccb3865e5202">
 
 **Please note**: Login is required to see sensor status. However, in the debugger you can view the **realtime sensor data streaming over websockets**. 
 
