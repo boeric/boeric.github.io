@@ -1,17 +1,21 @@
 <!-- # Bo Ericsson Demos -->
 <img src="https://avatars.githubusercontent.com/u/4840824?v=4" width="200"/>
 
+---
+## NPM module array-correl
+
 [![NPM package][npm-img-array-correl]][npm-url-array-correl]
 [![Build Size][build-size-img-array-correl]][build-size-url-array-correl]
 
 The **npm** module generates an array of arbitrary size of pairs of numbers with a specified correlation. It also allows inspection of such array to determine the **pearson** correlation coefficient of the array's value pairs. The **generate** method takes the input count (array length), desired correlation, mean and deviation, and from this generates an array of numeric pairs that satisfies the input parameters. The **inspect** method inspects such array and provides several statistics, such as the actual pearson correlation coefficient, deviation, mean and extent. The only dependency is **d3-array** which could easily be factored away in a future version.
 
-The module on **npm** [here](https://www.npmjs.com/package/array-correl){:target="_blank"}
+The module on **npm** [here](https://www.npmjs.com/package/array-correl)
 
-The Repo is [here](https://github.com/boeric/array-correl){:target="_blank"}
+The Repo is [here](https://github.com/boeric/array-correl)
 
 Demo is [here](https://blocks.roadtolarissa.com/boeric/aa80b0048b7e39dd71c8fbe958d1b1d4)
 
+---
 ## NPM module array-unsort
 
 [![NPM package][npm-img-array-unsort]][npm-url-array-unsort]
@@ -19,12 +23,13 @@ Demo is [here](https://blocks.roadtolarissa.com/boeric/aa80b0048b7e39dd71c8fbe95
 
 The **npm** module unsorts (shuffles) an arbitrary array. The **unsort** method scrambles the input array and returns a new array. The **unsortInplace** method scrambles the input array in-place. Two algorithms are available: **Fisher-Yates** and **Modified Fisher-Yates**. The latter guarantees that no array element remain at the same array index after shuffling.
 
-The module on **npm** [here](https://www.npmjs.com/package/array-unsort){:target="_blank"}
+The module on **npm** [here](https://www.npmjs.com/package/array-unsort)
 
-The Repo is [here](https://github.com/boeric/array-unsort){:target="_blank"}
+The Repo is [here](https://github.com/boeric/array-unsort)
 
 Demo is [here](https://blocks.roadtolarissa.com/boeric/35eec347e240c6e41ebe04d85e28de9d)
 
+---
 ## zero-config-react-webapp / zero-config-modern-webapp 
 
 Zero-config modern **React** and **Js** front-end web app templates, with Webpack (bundler), Babel (compiler), Eslint/Airbnb (strict code style linting), Jest (unit tests), and D3 (data visualization) – all **pre-configured** and ready to go. You just add your code! 
@@ -33,14 +38,15 @@ In development mode, the webapp (served on `localhost:8080`) will reload after e
 
 Also, these cool new/newish javascript features are enabled: async/await, spread, generators, Map/Set, WeakMap/WeakSet, getters/setters and optional chaining (`?.`) – and work in legacy browsers! 
 
-The React Repo is [here](https://github.com/boeric/zero-config-react-webapp){:target="_blank"}
+The React Repo is [here](https://github.com/boeric/zero-config-react-webapp)
 
 TODO: Provide live demo using the repo's production server component 
 
 <img width="600" alt="Zero Config React Template" src="https://github.com/boeric/zero-config-react-webapp/assets/4840824/c091c81a-ec10-43f5-a53d-0a1697472776">
 
-The Basic Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp){:target="_blank"}
+The Basic Javascript Repo is [here](https://github.com/boeric/zero-config-modern-webapp)
 
+---
 ## license-suspensions
 
 The visualization demonstrates how to syncronize the state of two side-by-side **MapboxGL**-based maps. As the user interacts with one of the two maps, the state of the map (center position, zoom level, pitch and bearing) is dynamically copied to the second map (and vice versa). The code also demonstrates how to prevent call stack overflow due to recursive event handler triggering when the map state is updated.
@@ -51,10 +57,11 @@ The project was made for the **East Bay Community Law Center**'s ["Back on the R
 
 The dataset is based on driver license suspensions from California DMV and East Bay Community Law Center. See the initiative [here](https://ebclc.org/backontheroad/problem/)
 
-See the project live [here](https://boeric.github.io/license-suspensions/){:target="_blank"}
+See the project live [here](https://boeric.github.io/license-suspensions/)
 
-The repo is [here](https://github.com/boeric/license-suspensions){:target="_blank"}
+The repo is [here](https://github.com/boeric/license-suspensions)
 
+---
 ## dataset-insights
 
 The objective with this project is to provide **near-instanteous insights** of the contents of numeric columnar datasets. The following information is calculted for each numeric column in the dataset: null count, unique values (% of total values), extent (min/max), histogram and quantiles.
@@ -65,10 +72,11 @@ Open the screenshot below in **another browser window** to see image details.
 
 <img src="https://user-images.githubusercontent.com/4840824/84852452-bd97db80-b011-11ea-8871-55dcb2ad689f.png" width="600"/>
 
-See the project live [here](http://demo.boe.net/data-properties/){:target="_blank"}
+See the project live [here](http://demo.boe.net/data-properties/)
 
 TODO: Publish the repo
 
+---
 ## geo-buffer
 
 Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygons, in this case parks in San Francisco. It is using **MapboxGL** and **Turf**. Each GeoJson object (SF park) is "enlarged" with the value (in meters) of the input range control. The visualization demonstrates how overlapping GeoJson objects can be merged. 
@@ -77,10 +85,11 @@ Creates "buffers" of arbitrary size around **geojson** polygons and multi-polygo
 
 **Please note**: the polygon merge process is currently unoptimized (meaning, for example, that each polygon is unnecessarily tested for overlap against all others), and will be improved by quad trees.
 
-See the project live [here](http://demo.boe.net/geo-buffer/){:target="_blank"}
+See the project live [here](http://demo.boe.net/geo-buffer/)
 
-The Repo is [here](https://github.com/boeric/geo-buffer){:target="_blank"}
+The Repo is [here](https://github.com/boeric/geo-buffer)
 
+---
 ## canvas-in-svg
 
 The visualization demonstrates the use of an embedded Canvas in an SVG element. While this example includes only a single SVG element, an embedded canvas may make sense when a number of SVG elements needs to be generated, with each requiring to render large datasets that would othwewise overwhelm the DOM.
@@ -91,10 +100,11 @@ In this implementation, up to 50,000 items can be generated and visualized in th
 
 The app is using the **array-correl** npm module referenced at the top
 
-See the project live [here](http://demo.boe.net/canvas-in-svg/){:target="_blank"}
+See the project live [here](http://demo.boe.net/canvas-in-svg/)
 
-The repo is [here](https://github.com/boeric/canvas-in-svg){:target="_blank"}
+The repo is [here](https://github.com/boeric/canvas-in-svg)
 
+---
 ## Smaller D3 data viz demos
 
 A variety of smaller projects, most of them using **D3**
@@ -103,6 +113,7 @@ A variety of smaller projects, most of them using **D3**
 
 See the Blocks [here](https://blocks.roadtolarissa.com/boeric)
 
+---
 ## infinite-scroll
 
 **React app** demo of inifite scroll of images from the **cat.api** where only a finite number of images are kept in the browser. The project demonstrates loading resources **on-demand** during scrolling actions while keeping the browser **memory requirement** low. It also demonstrates how to keep the images in a **stable** position as the user is scrolling up/down using an API that provides **random** images.
@@ -115,8 +126,9 @@ TODO: Provide live demo using the production server
 <!-- See the project live [here](http://demo.boe.net:8080/) -->
 <!-- See the project live [here](http://demo.boe.net/infinite-scroll/public/){:target="_blank"} -->
 
-The Repo is [here](https://github.com/boeric/infinite-scroll){:target="_blank"}
+The Repo is [here](https://github.com/boeric/infinite-scroll)
 
+---
 ## traffic-fines
 
 Interactive map that shows traffic fines across the US. The visualization was created for the **Laywers' Committee for Civil Rights** of the San Francisco Bay Area, to illustrate the high traffic fines in the state of California (please see screenshot) relative to other states. The user can select one of three data series (Fines for Redlight, Stop sign and Speeding violations). By hovering over a state, an overlay shows the specific data to that state. As the user is moving the mouse over the map, the legend at the bottom shows each state's position.
@@ -126,15 +138,16 @@ Interactive map that shows traffic fines across the US. The visualization was cr
 TODO: Provide live demo
 <!-- See the project live [here](https://www.lccr.com/programs/paying-poor-bias-disparity-californias-traffic-court-system/){:target="_blank"} (please scroll down to the map) -->
 
-The Repo is [here](https://github.com/boeric/traffic-fines){:target="_blank"}
+The Repo is [here](https://github.com/boeric/traffic-fines)
 
+---
 ## network-viz
 
 Network visualization of a simulated **compute infrastructure** with some 400 nodes/links in 3d using the **3d-force-graph** npm module. As can be seen from the viz, some segments are disconnected from core infrastructure. The viz provides insights into the topology of a network that would be difficult to obtain through any other means. 
 
 <img src="https://user-images.githubusercontent.com/4840824/85204342-ba7a4500-b2c8-11ea-80dc-92283cf93989.png" width="700"/>
 
-See the project live [here](http://demo.boe.net/network-viz/){:target="_blank"}
+See the project live [here](http://demo.boe.net/network-viz/)
 
 How to use: 
 - Hover over a node to see the node details
@@ -145,18 +158,20 @@ How to use:
 - To rotate, drag with the left mouse button down
 - To pan, drag with the right mouse button down
 
-TOOD: Publish repo, provide live demo
+TODO: Publish repo
 
+---
 ## point-cloud-deck-gl
 
 Visualization of a "point cloud" using DeckGL and MapBoxGL. Close to 300k vertices are rendered above the map. The user can zoom in/out, rotate the map and change the pitch angle with the keyboard. 
 
 <img src="https://user-images.githubusercontent.com/4840824/85961605-66263380-b960-11ea-8f86-e06571dc6f7b.png" width="700"/>
 
-See the project live [here](http://demo.boe.net/point-cloud/){:target="_blank"}
+See the project live [here](http://demo.boe.net/point-cloud/)
 
 TODO: Publish repo
 
+---
 ## event-hub
 
 The event-hub project demonstrates how to create a real-time front-end event dispatcher and event aggregator server-side using websockets. The system is comprised of three main components: 
@@ -174,10 +189,11 @@ The **Client**, more specifically the **eventhub** is the most interesting piece
 
 The event manager **eventhub.js** upon init, first checks for Websockets support (and terminates if no such support is available). It then attempts to establish communication with the **server** over Websockets and sets an event handler for incoming Websockets messages. It then adds the **eventhub** function to the **window** object, making it available to all scripts running in the browser.
 
-Run the **client** web app [in a separate window](http://demo.boe.net/event-hub/index.html){:target="_blank"}. Then run the **analytics** web app [in another separate window](http://demo.boe.net/event-hub/analytics.html){:target="_blank"}. Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
+Run the **client** web app [in a separate window](http://demo.boe.net/event-hub/index.html). Then run the **analytics** web app [in another separate window](http://demo.boe.net/event-hub/analytics.html). Then trigger events in the **client** (by moving the mouse, clicking buttons, etc) and watch the events being consolidated and forwarded to the **analytics** app (via Websockets)
 
-The Repo is [here](https://github.com/boeric/event-hub){:target="_blank"}
+The Repo is [here](https://github.com/boeric/event-hub)
 
+---
 ## sensor-vue
 
 The sensor-vue project is a full stack implementation of:
@@ -210,20 +226,22 @@ Open the screenshot below in **another browser window** to see image details.
 
 **Please note**: Login is required to see sensor status. However, in the debugger you can view the **realtime sensor data streaming over websockets**. 
 
-See the project live [here](http://www.sensorvue.com){:target="_blank"}
+See the project live [here](http://www.sensorvue.com)
 
 TODO: Publish repo
 
+---
 ## real-time-chart-multi
 
 The **real-time-chart-multi** project is a resuable Javascript component that accepts real time data from **multiple** data streams. The purpose is to show the arrival time of real time events (or lack thereof), piped to the browser (for example via Websockets). Various attributes of each event can be articulated using **size**, **color** and **opacity** of the object generated for the event. 
 
 <img src="https://user-images.githubusercontent.com/4840824/84856371-5c750580-b01b-11ea-88bc-f40714b1d5c9.png" width="600"/>
 
-See the project live [here](http://boeric.github.io/d3RealTimeChartMulti/){:target="_blank"}. **Please wait for 30 sec** to see events from the 2nd data stream
+See the project live [here](http://boeric.github.io/d3RealTimeChartMulti/). **Please wait for 30 sec** to see events from the 2nd data stream
 
-The Repo is [here](https://github.com/boeric/d3RealTimeChartMulti){:target="_blank"}
+The Repo is [here](https://github.com/boeric/d3RealTimeChartMulti)
 
+---
 ## vertex-generator
 
 The vertex generator allows rapid capture of geo verticies of a simulated path of a vechicle or person. Each captured vertex is a geo location where the path is changing direction. A syntactically valid **GeoJSON** structure is produced when the button is clicked. The GeoJSON structure contains both the **Point**s and **LineString** elements.  
@@ -234,9 +252,9 @@ The geo locations and speed information can be used by a post processing tool to
 
 To use, create vertexes in the map by clicking. Then click the **Get GEOJson** button, and copy the just-created GEOJson structure to the clipboard. Then drop it into for example [GeoJSONLint](https://geojsonlint.com/), to verify the integrity of the structure.
 
-See the project live [here](https://boeric.github.io/vertex-generator/){:target="_blank"}
+See the project live [here](https://boeric.github.io/vertex-generator/)
 
-The Repo is [here](https://github.com/boeric/vertex-generator){:target="_blank"}
+The Repo is [here](https://github.com/boeric/vertex-generator)
 
 [npm-img-array-correl]: https://img.shields.io/npm/v/array-correl.svg
 [npm-url-array-correl]: https://npmjs.org/package/array-correl
